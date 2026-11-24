@@ -1,0 +1,30 @@
+grid: results/grid-timed.csv
+runs: 3600 (1080 baseline, 2520 LPT); bootstrap resamples: 10000; seed: 20261124
+
+RQ2 primary family (LPT vs dynamic-queue), 84 tests, Holm alpha 0.05: {'n.s.': 34, 'LPT better': 32, 'LPT worse': 18}
+RQ2 secondary (LPT vs work-stealing): {'n.s.': 33, 'LPT better': 30, 'LPT worse': 21}
+RQ2 secondary (LPT vs static-rr): {'LPT better': 80, 'n.s.': 4}
+
+Crossover error level, LPT vs dynamic-queue (interpolated zero of the mean paired difference):
+workers     2      4      8      16
+skew                               
+0.5      0.061  0.097  0.134  0.189
+1.0      0.074  0.215  0.380   >0.5
+1.5      0.076  0.253  0.428   >0.5
+
+RQ1 Friedman: 12 of 12 (skew, N) cells significant (Holm)
+Median overhead by policy (rows: skew, N):
+policy        dynamic-queue    lpt  lpt (error 0.25)  static-rr  work-stealing
+skew workers                                                                  
+0.5  2                0.003  0.001             0.014      0.027          0.003
+     4                0.010  0.004             0.039      0.070          0.010
+     8                0.034  0.007             0.069      0.150          0.039
+     16               0.085  0.019             0.130      0.261          0.076
+1.0  2                0.006  0.001             0.020      0.069          0.004
+     4                0.028  0.003             0.062      0.227          0.036
+     8                0.123  0.005             0.106      0.459          0.109
+     16               0.268  0.005             0.155      0.722          0.253
+1.5  2                0.004  0.001             0.027      0.131          0.003
+     4                0.063  0.001             0.073      0.379          0.041
+     8                0.190  0.002             0.152      0.690          0.238
+     16               0.253  0.000             0.000      0.403          0.223
