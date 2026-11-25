@@ -1,0 +1,27 @@
+grid: results/grid-spin.csv
+runs: 900 (270 baseline, 630 LPT); bootstrap resamples: 3000; seed: 20261124
+
+RQ2 primary family (LPT vs dynamic-queue, error <= 0.5), 63 tests, Holm alpha 0.05: {'n.s.': 63}
+RQ2 secondary (LPT vs work-stealing): {'n.s.': 63}
+RQ2 secondary (LPT vs static-rr): {'n.s.': 63}
+
+Crossover error level, LPT vs dynamic-queue (interpolated zero of the mean paired difference):
+workers      2      4      8
+skew                        
+0.5      0.000  0.000  0.001
+1.0      0.073  0.000  0.132
+1.5      0.112  0.168   >0.5
+
+RQ1 Friedman: 9 of 9 (skew, N) cells significant (Holm)
+Median overhead by policy (rows: skew, N):
+policy        dynamic-queue    lpt  lpt (error 0.25)  static-rr  work-stealing
+skew workers                                                                  
+0.5  2                0.056  0.056             0.064      0.090          0.056
+     4                0.190  0.223             0.231      0.255          0.189
+     8                0.360  0.356             0.440      0.526          0.353
+1.0  2                0.060  0.055             0.073      0.106          0.070
+     4                0.196  0.217             0.255      0.403          0.207
+     8                0.437  0.398             0.438      0.787          0.415
+1.5  2                0.064  0.067             0.081      0.155          0.059
+     4                0.263  0.211             0.268      0.551          0.229
+     8                0.576  0.364             0.479      0.932          0.544

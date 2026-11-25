@@ -1,0 +1,10 @@
+skew,workers,chi2,friedman_p,kendall_w,best_policy,worst_policy,spread_of_medians,holm_p
+0.5,2,16.2,0.001032,0.54,work-stealing,static-rr,0.03415,0.001256
+0.5,4,21.0,0.000105,0.7,work-stealing,static-rr,0.066077,0.000751
+0.5,8,18.12,0.000415,0.604,work-stealing,static-rr,0.172928,0.001256
+1.0,2,18.12,0.000415,0.604,lpt,static-rr,0.050417,0.001256
+1.0,4,19.44,0.000222,0.648,dynamic-queue,static-rr,0.206729,0.001256
+1.0,8,21.24,9.4e-05,0.708,lpt,static-rr,0.388565,0.000751
+1.5,2,19.08,0.000263,0.636,work-stealing,static-rr,0.09668,0.001256
+1.5,4,19.56,0.000209,0.652,lpt,static-rr,0.339915,0.001256
+1.5,8,23.4,3.3e-05,0.78,lpt,static-rr,0.567437,0.0003

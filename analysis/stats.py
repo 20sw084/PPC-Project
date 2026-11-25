@@ -36,6 +36,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import grid  # noqa: E402
 
 ALPHA = 0.05
+PRIMARY_MAX_ERROR = 0.5  # pre-specified grid; levels above it are an exploratory extension (own Holm family)
 PRIMARY = "dynamic-queue"
 SECONDARY = ["work-stealing", "static-rr"]
 RQ1_POLICIES = ["static-rr", "dynamic-queue", "work-stealing", "lpt"]  # lpt = exact estimates (error 0)
@@ -137,9 +138,17 @@ def fmt_cross(value, max_error):
 # RQ2
 # --------------------------------------------------------------------------------------------------------
 
-def paired_tests(df, baseline, rng, hl_ci=True):
-    """One row per (skew, workers, est_error): LPT vs `baseline` on identical task sets, Holm-corrected."""
+def paired_tests(df, baseline, rng, hl_ci=True, error_min=None, error_max=None):
+    """One row per (skew, workers, est_error): LPT vs `baseline` on identical task sets, Holm-corrected.
+
+    error_min (exclusive) / error_max (inclusive) restrict the error levels, so that the pre-specified grid
+    and any exploratory extension are separate Holm families.
+    """
     pairs = grid.paired(df, baseline)
+    if error_min is not None:
+        pairs = pairs[pairs["est_error"] > error_min + 1e-9]
+    if error_max is not None:
+        pairs = pairs[pairs["est_error"] <= error_max + 1e-9]
     rows = []
     for (skew, workers, err), g in pairs.groupby(["skew", "workers", "est_error"]):
         d = g.sort_values("rep")["diff"].to_numpy()
@@ -359,12 +368,21 @@ def run(grid_path, out_dir, boots, seed):
     lines = [f"grid: {grid_path}", f"runs: {len(df)} ({int(df['is_baseline'].sum())} baseline, "
              f"{len(grid.lpt(df))} LPT); bootstrap resamples: {boots}; seed: {seed}", ""]
 
-    primary = paired_tests(df, PRIMARY, rng)
-    secondary = pd.concat([paired_tests(df, b, rng, hl_ci=False) for b in SECONDARY], ignore_index=True)
+    primary = paired_tests(df, PRIMARY, rng, error_max=PRIMARY_MAX_ERROR)
+    secondary = pd.concat([paired_tests(df, b, rng, hl_ci=False, error_max=PRIMARY_MAX_ERROR) for b in SECONDARY],
+                          ignore_index=True)
+    has_extension = (grid.lpt(df)["est_error"] > PRIMARY_MAX_ERROR + 1e-9).any()
+    extension = (paired_tests(df, PRIMARY, rng, error_min=PRIMARY_MAX_ERROR) if has_extension
+                 else pd.DataFrame(columns=primary.columns))
     primary.round(6).to_csv(out / "rq2_primary_tests.csv", index=False)
     secondary.round(6).to_csv(out / "rq2_secondary_tests.csv", index=False)
     counts = primary["verdict"].value_counts().to_dict()
-    lines += [f"RQ2 primary family (LPT vs {PRIMARY}), {len(primary)} tests, Holm alpha {ALPHA}: {counts}"]
+    lines += [f"RQ2 primary family (LPT vs {PRIMARY}, error <= {PRIMARY_MAX_ERROR}), {len(primary)} tests, "
+              f"Holm alpha {ALPHA}: {counts}"]
+    if has_extension:
+        extension.round(6).to_csv(out / "rq2_extension_tests.csv", index=False)
+        lines.append(f"RQ2 EXPLORATORY extension (error > {PRIMARY_MAX_ERROR}, own Holm family of "
+                     f"{len(extension)} tests): {extension['verdict'].value_counts().to_dict()}")
     for b in SECONDARY:
         counts_b = secondary[secondary["baseline"] == b]["verdict"].value_counts().to_dict()
         lines.append(f"RQ2 secondary (LPT vs {b}): {counts_b}")
@@ -385,7 +403,9 @@ def run(grid_path, out_dir, boots, seed):
 
     fig_rq1_boxplots(df, out)
     fig_rq2_absolute(df, out, rng)
-    fig_rq2_difference(pd.concat([primary, secondary], ignore_index=True), cross, out)
+    # never concatenate an empty frame: pandas would turn the numeric columns into object dtype
+    fig_rq2_difference(pd.concat([t for t in (primary, secondary, extension) if len(t)], ignore_index=True),
+                       cross, out)
     fig_rq2_crossover(cross, out)
 
     (out / "summary.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")

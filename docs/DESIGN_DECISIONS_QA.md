@@ -2,8 +2,9 @@
 
 Study: *Does Duration-Aware Sharding Survive Imperfect Estimates?* (PPC project, Junaid Aslam).
 This file explains every methodological change made after the approved proposal, as questions a reviewer
-is likely to ask. Numbers come from `results/calibration-raw.csv` (official calibration) and
-`results/pilot.csv` (10-rep pilot, skew 1.0, N = 4 and 16) unless stated otherwise.
+is likely to ask. Calibration numbers come from `results/calibration-raw.csv` (recalibration of 25 Nov on a quiet laptop; an earlier
+calibration of 21 Nov gave the same picture). Pilot numbers (10-rep pilot, skew 1.0, N = 4 and 16) are quoted from
+the analysis made at the time; the pilot file itself was not kept in the repository.
 
 ## At a glance
 
@@ -12,7 +13,7 @@ is likely to ask. Numbers come from `results/calibration-raw.csv` (official cali
 | Policies | static, LPT, dynamic queue, work-stealing | same four | |
 | Estimate-error levels | 4 (0, .1, .25, .5) | **7** (0, .05, .1, .15, .25, .35, .5) | Q2 |
 | Runs of estimate-free policies | repeated at every error level | **once per (skew, N, rep)** | Q1 |
-| Main grid size | ~5,800 runs | **3,600 runs** (+ 900 optional spin runs) | Q1 |
+| Main grid size | ~5,800 runs | **3,600 runs** + 720 exploratory extension runs (= 4,320) + 900 spin runs | Q1, Q9, Q10 |
 | Workers N | {2, 4, 8, 16} | same | |
 | Task duration | timed tasks, >= 50 ms | median 40 ms, floor 10 ms | Q5 |
 | Timed task body | `Thread.sleep` | deadline loop (1 ms sleeps + 2 ms spin tail) | Q5 |
@@ -57,8 +58,8 @@ Paired mean difference in overhead, LPT minus dynamic-queue (negative = LPT bett
   halves that gap.
 - Crossovers depend on N (and on skew), so a grid that resolves RQ2 ("at what error does LPT lose its
   advantage?") needs denser levels near the crossover, not an evenly spaced coarse grid.
-- Caveat: the pilot only used skew 1.0. Crossovers at other skews are unknown until the full run, and the
-  0.35 to 0.5 gap at N = 16 is still wide (an extra level around 0.45 is cheap if wanted).
+- Caveat: the pilot only used skew 1.0. The full run showed that for skew >= 1.0 at N = 16 the crossover lies
+  above 0.5, so an exploratory extension (LPT at 0.75 and 1.0, see Q9) was run to locate it.
 
 ## Q3. Why paired tests (Wilcoxon signed-rank) and not independent Mann-Whitney?
 
@@ -98,13 +99,13 @@ paired design removes the task-set variability that would otherwise swamp the po
 
 | Change | Evidence |
 |---|---|
-| **Timed tasks wait on a deadline in 1 ms sleeps plus a 2 ms spin tail**, not plain `Thread.sleep` | Windows rounds sleeps to its ~15.6 ms timer tick. Plain `Thread.sleep` had a p95 absolute error of 6.5 ms (10 ms task), 13.0 ms (20 ms), 15.4 ms (50 ms), 13.6 ms (100 ms). The deadline loop had p95 error <= 0.25 ms at every target from 1 to 200 ms. `parkNanos` was as bad as `sleep` at 10 ms and above, and worse below that |
+| **Timed tasks wait on a deadline in 1 ms sleeps plus a 2 ms spin tail**, not plain `Thread.sleep` | Windows rounds sleeps to its ~15.6 ms timer tick. Plain `Thread.sleep` had a p95 absolute error of 6.7 ms (10 ms task), 12.8 ms (20 ms), 14.4 ms (50 ms), 12.3 ms (100 ms). The deadline loop had p95 error <= 0.04 ms at every target from 1 to 200 ms (25 Nov calibration; the 21 Nov calibration gave <= 0.25 ms). `parkNanos` was as bad as `sleep` at 10 ms and above, and worse below that |
 | **Floor 50 ms -> 10 ms, median 100 ms -> 40 ms** | The 50 ms floor existed only because of timer inaccuracy. With the accurate body, 10 ms tasks are reliable. It also cut the grid cost: median 100 ms with n = 200 was an estimated 15.5 h for the old structure |
 | **`n = 200` kept** | Value from the approved proposal. TODO before the paper: check it against the real number of screens in the motivating suite and state the comparison |
 | **Overhead = makespan / lower bound - 1**, lower bound from the *true* durations | Comparable across skews and N; 0 means the lower bound `max(sum/N, longest)` was met |
 | **Random run order (seeded), sequential runs only** | Spreads thermal and background drift across policies instead of tying it to one. Two runs at once would disturb each other |
 | **Resumable CSV (one row per run, torn lines redone)** | Runs can be stopped and continued in chunks. A test found and fixed a bug where an interrupted write would corrupt the next row |
-| **Warm-up** (3 rounds of 4 policies on tiny tasks before measurement) | Drift check: mean overhead of runs 1-5 was 0.0179, runs 6-20: 0.0145, runs 21-30: 0.0144, a small warm-up effect and no throttling trend |
+| **Warm-up** (3 rounds of 4 policies on tiny tasks before measurement) | Drift check (25 Nov): mean overhead of runs 1-5 was 0.0155, runs 6-20: 0.0148, runs 21-30: 0.0162, i.e. within noise, no warm-up or throttling trend |
 | **Policy definitions fixed** | LPT = static shards from sorted estimates (like CI sharding), not an LPT-ordered queue. Work-stealing starts from the same round-robin deal as static-rr, so the difference between them isolates the effect of stealing. Whole tasks (screens) are stolen and a started task never moves, which matches the data-affinity constraint in the motivating suite |
 | **Platform threads** | Virtual threads would change what is measured |
 
@@ -112,13 +113,13 @@ paired design removes the task-set variability that would otherwise swamp the po
 
 - Timed tasks isolate the scheduling policy from the hardware. They cannot show CPU effects such as
   contention or P/E-core differences, so a small CPU-bound **robustness check** runs the same grid with
-  tasks that burn a fixed amount of work (`--iters-per-ms=690624`, median of the official calibration).
+  tasks that burn a fixed amount of work (`--iters-per-ms=749596`, the median of the 25 Nov calibration, which the spin run used).
 - It is deliberately smaller: 10 reps, N in {2, 4, 8} = 900 runs (about 1.1 h).
 - **N = 16 is excluded** for the spin variant. Calibration shows 16 CPU-bound workers on 12 hardware
-  threads: a 100 ms CPU task takes 188 ms (1.9x), against 128 ms at N = 8 and 134 ms at N = 12. That is
+  threads: a 100 ms CPU task takes 190 ms (1.9x), against 142 ms at N = 8 and 156 ms at N = 12. That is
   oversubscription, not scheduling. It is reported from calibration, not from the grid.
-- The spin rate is not constant: median 690,624, min 521,782, max 727,627 iterations/ms (about 30% spread,
-  the P/E-core effect). Spin results are noisier, which is why they are a robustness check and not the
+- The spin rate is not constant: median 749,596, min 737,485, max 752,911 iterations/ms on the quiet laptop (about 2% spread); the 21 Nov
+  calibration on a busier machine had about 30% spread (P/E-core hopping), so the rate depends on machine state. Spin results are noisier, which is why they are a robustness check and not the
   main result.
 
 ## Q7. What can the study not conclude? (threats to validity to state in the paper)
@@ -129,8 +130,10 @@ paired design removes the task-set variability that would otherwise swamp the po
   "significantly different". The paper should say the crossover is where the interpolated difference is zero.
 - **Floor clamping at high skew.** With median 40 ms and floor 10 ms, a lognormal clamps about 18% of
   tasks at skew 1.5, 8% at skew 1.0 and 0.3% at skew 0.5, which slightly reduces the effective skew.
-- **N = 16 has a systematic delay.** Official calibration: 16 parallel 50 ms timed tasks took a median
-  54.9 ms against 50.1 ms at N = 1 (the 2 ms spin tails of 16 threads compete for 12 hardware threads).
+- **N = 16 has a systematic delay.** Calibration of 25 Nov: 16 parallel 50 ms timed tasks took a median
+  50.7 ms against 50.0 ms at N = 1 (+0.7 ms); the 21 Nov calibration on a less quiet machine gave 54.9 ms, so the
+  delay depends on machine state (0.7 to 4.9 ms). It comes from the 2 ms spin tails of 16 threads competing for
+  12 hardware threads.
   It applies to every policy at N = 16, so it mostly cancels in paired differences, but it inflates
   absolute overhead at N = 16.
 - **Timed tasks are a model.** Sleep-like tasks ignore cache, memory and server contention.
@@ -145,3 +148,31 @@ paired design removes the task-set variability that would otherwise swamp the po
 2. Optional re-check: `java -cp target/classes ppc.sharding.Calibration ../results/calibration-raw.csv`.
 3. Main grid and spin check commands: see `README` / `PLAN.md` (explicit `--out` paths).
 4. Analysis: `python analysis/grid.py results/grid-timed.csv` for the summary and pairing.
+
+## Q9. What was added after the main grid, and why? (exploratory extension)
+
+- The main grid (error levels up to 0.5) left the crossover **beyond the grid** for skew >= 1.0 at N = 16, so RQ2
+  could only be answered as "above 0.5" there. 720 extra LPT runs (error 0.75 and 1.0, 3 skews x 4 N x 30 reps x
+  2 levels) were run on the **same task sets**, so every new LPT run is paired with the existing baselines.
+  The timed file now has 4,320 rows.
+- **The pre-specified analysis is unchanged:** the 84 primary tests (error <= 0.5) give 32 LPT better, 18 worse,
+  34 not significant, exactly as before. The extension has its **own Holm family** of 24 tests (20 LPT worse,
+  4 not significant), reported as exploratory.
+- Crossovers use all levels, so they are now located everywhere: at N = 16, skew 1.0: 0.52 (95% CI 0.43 to
+  0.77); skew 1.5: 0.71 (0.49 to 0.92). The CI at skew 1.5 is wide and about 1% of bootstrap resamples never
+  cross within the tested range.
+
+## Q10. What does the spin (CPU-bound) check show, and how should it be read?
+
+- 900 runs (10 reps, N in {2,4,8}) at the calibrated spin rate. **No test survives Holm correction in any
+  family** (63 tests per family): with 10 pairs the smallest possible two-sided Wilcoxon p-value is about 0.002,
+  and Holm multiplies it by up to 63. The spin grid is therefore used for **direction and size of effects and
+  for the crossover, not for significance**, as planned.
+- Absolute overheads are much larger than in the timed grid (for example LPT with exact estimates at N = 4,
+  skew 0.5: median 0.22 against 0.004 for timed tasks). A likely explanation (not tested here) is that the lower
+  bound assumes identical workers, while this CPU has 2 fast and 8 slower cores, so even a perfect assignment
+  cannot reach it. Absolute spin overheads must not be compared with the timed ones.
+- Qualitatively the trend matches: LPT keeps its advantage longest at high skew and high N (skew 1.5, N = 8:
+  crossover above 0.5). But at skew 0.5 LPT shows no advantage over the dynamic queue even with exact estimates,
+  and at skew 1.5, N = 8 the spin crossover (above 0.5) differs from the timed one (0.43). Report this as
+  partial agreement, not confirmation.

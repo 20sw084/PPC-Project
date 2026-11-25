@@ -29,8 +29,8 @@ public record GridConfig(
             "n", "median-ms", "floor-ms", "reps", "skews", "errors", "workers",
             "variant", "seed", "iters-per-ms", "warmup", "out");
 
-    /** CPU-spin rate from the official calibration run (results/calibration-raw.csv); used by the spin variant only. */
-    public static final double CALIBRATED_ITERS_PER_MS = 690_624;
+    /** CPU-spin rate from the 25 Nov 2026 calibration (results/calibration-raw.csv), the rate the spin grid was run with; used by the spin variant only. */
+    public static final double CALIBRATED_ITERS_PER_MS = 749_596;
 
     /**
      * Defaults match the frozen study design (see docs/DESIGN_DECISIONS_QA.md). The timed variant is the main

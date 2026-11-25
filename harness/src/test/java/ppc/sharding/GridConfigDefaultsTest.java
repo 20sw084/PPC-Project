@@ -32,7 +32,7 @@ class GridConfigDefaultsTest {
         GridConfig cfg = GridConfig.from(Map.of("variant", "spin"));
         assertEquals(10, cfg.reps());
         assertEquals(List.of(2, 4, 8), cfg.workers());
-        assertEquals(690_624.0, cfg.itersPerMs());
+        assertEquals(749_596.0, cfg.itersPerMs());
         assertEquals(40.0, cfg.medianMs());
         assertEquals(10.0, cfg.floorMs());
         assertEquals(900, cfg.enumerate(POLICIES).size());

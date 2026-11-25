@@ -1,0 +1,1816 @@
+section,name,param,sample,value
+accuracy,plain Thread.sleep,1,0,1.1191
+accuracy,plain Thread.sleep,1,1,1.1329
+accuracy,plain Thread.sleep,1,2,1.1283
+accuracy,plain Thread.sleep,1,3,1.1318
+accuracy,plain Thread.sleep,1,4,1.1201
+accuracy,plain Thread.sleep,1,5,1.0504
+accuracy,plain Thread.sleep,1,6,1.0473
+accuracy,plain Thread.sleep,1,7,1.114
+accuracy,plain Thread.sleep,1,8,1.118
+accuracy,plain Thread.sleep,1,9,1.0771
+accuracy,plain Thread.sleep,1,10,1.1592
+accuracy,plain Thread.sleep,1,11,1.0803
+accuracy,plain Thread.sleep,1,12,1.1141
+accuracy,plain Thread.sleep,1,13,1.105
+accuracy,plain Thread.sleep,1,14,1.1077
+accuracy,plain Thread.sleep,1,15,1.0881
+accuracy,plain Thread.sleep,1,16,1.0968
+accuracy,plain Thread.sleep,1,17,1.1086
+accuracy,plain Thread.sleep,1,18,1.1065
+accuracy,plain Thread.sleep,1,19,1.0983
+accuracy,plain Thread.sleep,1,20,1.0836
+accuracy,plain Thread.sleep,1,21,1.1003
+accuracy,plain Thread.sleep,1,22,1.1075
+accuracy,plain Thread.sleep,1,23,1.1053
+accuracy,plain Thread.sleep,1,24,1.0675
+accuracy,plain Thread.sleep,1,25,1.1029
+accuracy,plain Thread.sleep,1,26,1.1021
+accuracy,plain Thread.sleep,1,27,1.1034
+accuracy,plain Thread.sleep,1,28,1.0831
+accuracy,plain Thread.sleep,1,29,1.1122
+accuracy,plain Thread.sleep,1,30,1.1141
+accuracy,plain Thread.sleep,1,31,1.105
+accuracy,plain Thread.sleep,1,32,1.1043
+accuracy,plain Thread.sleep,1,33,1.1021
+accuracy,plain Thread.sleep,1,34,1.0832
+accuracy,plain Thread.sleep,1,35,1.105
+accuracy,plain Thread.sleep,1,36,1.0772
+accuracy,plain Thread.sleep,1,37,1.1609
+accuracy,plain Thread.sleep,1,38,1.0909
+accuracy,plain Thread.sleep,1,39,1.0996
+accuracy,plain Thread.sleep,1,40,1.0855
+accuracy,plain Thread.sleep,1,41,1.0904
+accuracy,plain Thread.sleep,1,42,1.154
+accuracy,plain Thread.sleep,1,43,1.1072
+accuracy,plain Thread.sleep,1,44,1.169
+accuracy,plain Thread.sleep,1,45,1.1592
+accuracy,plain Thread.sleep,1,46,1.1593
+accuracy,plain Thread.sleep,1,47,1.1607
+accuracy,plain Thread.sleep,1,48,1.1534
+accuracy,plain Thread.sleep,1,49,1.2877
+accuracy,plain Thread.sleep,1,50,1.2125
+accuracy,plain Thread.sleep,1,51,1.2884
+accuracy,plain Thread.sleep,1,52,1.2871
+accuracy,plain Thread.sleep,1,53,1.3924
+accuracy,plain Thread.sleep,1,54,1.2619
+accuracy,plain Thread.sleep,1,55,1.3218
+accuracy,plain Thread.sleep,1,56,1.3845
+accuracy,plain Thread.sleep,1,57,1.3613
+accuracy,plain Thread.sleep,1,58,1.3213
+accuracy,plain Thread.sleep,1,59,1.2038
+accuracy,plain Thread.sleep,1,60,1.3044
+accuracy,plain Thread.sleep,1,61,1.3738
+accuracy,plain Thread.sleep,1,62,1.3617
+accuracy,plain Thread.sleep,1,63,1.3288
+accuracy,plain Thread.sleep,1,64,1.3283
+accuracy,plain Thread.sleep,1,65,1.3194
+accuracy,plain Thread.sleep,1,66,1.3054
+accuracy,plain Thread.sleep,1,67,1.2915
+accuracy,plain Thread.sleep,1,68,1.2479
+accuracy,plain Thread.sleep,1,69,1.2461
+accuracy,plain Thread.sleep,1,70,1.2176
+accuracy,plain Thread.sleep,1,71,1.2539
+accuracy,plain Thread.sleep,1,72,1.328
+accuracy,plain Thread.sleep,1,73,1.4331
+accuracy,plain Thread.sleep,1,74,1.2924
+accuracy,plain Thread.sleep,1,75,1.2997
+accuracy,plain Thread.sleep,1,76,1.338
+accuracy,plain Thread.sleep,1,77,1.3237
+accuracy,plain Thread.sleep,1,78,1.3191
+accuracy,plain Thread.sleep,1,79,1.3188
+accuracy,plain Thread.sleep,1,80,1.2691
+accuracy,plain Thread.sleep,1,81,1.3126
+accuracy,plain Thread.sleep,1,82,1.3096
+accuracy,plain Thread.sleep,1,83,1.2974
+accuracy,plain Thread.sleep,1,84,1.3197
+accuracy,plain Thread.sleep,1,85,1.3221
+accuracy,plain Thread.sleep,1,86,1.2716
+accuracy,plain Thread.sleep,1,87,1.3182
+accuracy,plain Thread.sleep,1,88,1.2927
+accuracy,plain Thread.sleep,1,89,1.2987
+accuracy,plain Thread.sleep,1,90,1.3137
+accuracy,plain Thread.sleep,1,91,1.2729
+accuracy,plain Thread.sleep,1,92,1.3309
+accuracy,plain Thread.sleep,1,93,1.3064
+accuracy,plain Thread.sleep,1,94,1.2994
+accuracy,plain Thread.sleep,1,95,1.3038
+accuracy,plain Thread.sleep,1,96,1.2969
+accuracy,plain Thread.sleep,1,97,1.2488
+accuracy,plain Thread.sleep,1,98,1.2389
+accuracy,plain Thread.sleep,1,99,1.2338
+accuracy,plain Thread.sleep,5,0,5.2501
+accuracy,plain Thread.sleep,5,1,5.1977
+accuracy,plain Thread.sleep,5,2,5.1424
+accuracy,plain Thread.sleep,5,3,5.1532
+accuracy,plain Thread.sleep,5,4,5.2569
+accuracy,plain Thread.sleep,5,5,5.2604
+accuracy,plain Thread.sleep,5,6,5.2
+accuracy,plain Thread.sleep,5,7,5.4183
+accuracy,plain Thread.sleep,5,8,5.3252
+accuracy,plain Thread.sleep,5,9,5.3245
+accuracy,plain Thread.sleep,5,10,5.2011
+accuracy,plain Thread.sleep,5,11,5.2631
+accuracy,plain Thread.sleep,5,12,5.3043
+accuracy,plain Thread.sleep,5,13,5.3083
+accuracy,plain Thread.sleep,5,14,5.2207
+accuracy,plain Thread.sleep,5,15,5.3075
+accuracy,plain Thread.sleep,5,16,5.3043
+accuracy,plain Thread.sleep,5,17,5.3072
+accuracy,plain Thread.sleep,5,18,5.1842
+accuracy,plain Thread.sleep,5,19,5.1865
+accuracy,plain Thread.sleep,5,20,5.1757
+accuracy,plain Thread.sleep,5,21,5.1869
+accuracy,plain Thread.sleep,5,22,5.3092
+accuracy,plain Thread.sleep,5,23,5.3345
+accuracy,plain Thread.sleep,5,24,5.3307
+accuracy,plain Thread.sleep,5,25,5.2624
+accuracy,plain Thread.sleep,5,26,5.1897
+accuracy,plain Thread.sleep,5,27,5.1854
+accuracy,plain Thread.sleep,5,28,5.2536
+accuracy,plain Thread.sleep,5,29,5.0959
+accuracy,plain Thread.sleep,5,30,5.2142
+accuracy,plain Thread.sleep,5,31,5.2805
+accuracy,plain Thread.sleep,5,32,5.3875
+accuracy,plain Thread.sleep,5,33,5.1931
+accuracy,plain Thread.sleep,5,34,5.2594
+accuracy,plain Thread.sleep,5,35,5.1821
+accuracy,plain Thread.sleep,5,36,5.2734
+accuracy,plain Thread.sleep,5,37,5.07
+accuracy,plain Thread.sleep,5,38,5.1134
+accuracy,plain Thread.sleep,5,39,5.1876
+accuracy,plain Thread.sleep,5,40,5.3095
+accuracy,plain Thread.sleep,5,41,5.1932
+accuracy,plain Thread.sleep,5,42,5.3029
+accuracy,plain Thread.sleep,5,43,5.3086
+accuracy,plain Thread.sleep,5,44,5.309
+accuracy,plain Thread.sleep,5,45,5.2959
+accuracy,plain Thread.sleep,5,46,5.3032
+accuracy,plain Thread.sleep,5,47,5.3103
+accuracy,plain Thread.sleep,5,48,5.5092
+accuracy,plain Thread.sleep,5,49,5.2717
+accuracy,plain Thread.sleep,5,50,5.0316
+accuracy,plain Thread.sleep,5,51,5.1459
+accuracy,plain Thread.sleep,5,52,5.1374
+accuracy,plain Thread.sleep,5,53,5.1467
+accuracy,plain Thread.sleep,5,54,5.7467
+accuracy,plain Thread.sleep,5,55,5.1383
+accuracy,plain Thread.sleep,5,56,5.139
+accuracy,plain Thread.sleep,5,57,5.1388
+accuracy,plain Thread.sleep,5,58,5.2071
+accuracy,plain Thread.sleep,5,59,5.1321
+accuracy,plain Thread.sleep,5,60,5.1385
+accuracy,plain Thread.sleep,5,61,5.3956
+accuracy,plain Thread.sleep,5,62,5.1441
+accuracy,plain Thread.sleep,5,63,5.1411
+accuracy,plain Thread.sleep,5,64,6.1477
+accuracy,plain Thread.sleep,5,65,5.14
+accuracy,plain Thread.sleep,5,66,5.1405
+accuracy,plain Thread.sleep,5,67,5.1486
+accuracy,plain Thread.sleep,5,68,5.1394
+accuracy,plain Thread.sleep,5,69,5.4265
+accuracy,plain Thread.sleep,5,70,5.135
+accuracy,plain Thread.sleep,5,71,5.2243
+accuracy,plain Thread.sleep,5,72,5.3983
+accuracy,plain Thread.sleep,5,73,5.0988
+accuracy,plain Thread.sleep,5,74,5.2885
+accuracy,plain Thread.sleep,5,75,6.9499
+accuracy,plain Thread.sleep,5,76,5.9969
+accuracy,plain Thread.sleep,5,77,5.9312
+accuracy,plain Thread.sleep,5,78,5.9587
+accuracy,plain Thread.sleep,5,79,6.0522
+accuracy,plain Thread.sleep,5,80,5.2048
+accuracy,plain Thread.sleep,5,81,5.1862
+accuracy,plain Thread.sleep,5,82,5.179
+accuracy,plain Thread.sleep,5,83,6.0868
+accuracy,plain Thread.sleep,5,84,5.1843
+accuracy,plain Thread.sleep,5,85,5.4817
+accuracy,plain Thread.sleep,5,86,5.1828
+accuracy,plain Thread.sleep,5,87,5.1806
+accuracy,plain Thread.sleep,5,88,5.1663
+accuracy,plain Thread.sleep,5,89,5.1673
+accuracy,plain Thread.sleep,5,90,5.1772
+accuracy,plain Thread.sleep,5,91,5.1761
+accuracy,plain Thread.sleep,5,92,5.0633
+accuracy,plain Thread.sleep,5,93,5.0726
+accuracy,plain Thread.sleep,5,94,5.1401
+accuracy,plain Thread.sleep,5,95,5.4942
+accuracy,plain Thread.sleep,5,96,5.126
+accuracy,plain Thread.sleep,5,97,5.1845
+accuracy,plain Thread.sleep,5,98,5.1836
+accuracy,plain Thread.sleep,5,99,5.5192
+accuracy,plain Thread.sleep,10,0,15.7467
+accuracy,plain Thread.sleep,10,1,16.2399
+accuracy,plain Thread.sleep,10,2,15.5255
+accuracy,plain Thread.sleep,10,3,15.9721
+accuracy,plain Thread.sleep,10,4,15.7577
+accuracy,plain Thread.sleep,10,5,16.4025
+accuracy,plain Thread.sleep,10,6,15.5594
+accuracy,plain Thread.sleep,10,7,15.5966
+accuracy,plain Thread.sleep,10,8,15.8859
+accuracy,plain Thread.sleep,10,9,16.5449
+accuracy,plain Thread.sleep,10,10,15.6114
+accuracy,plain Thread.sleep,10,11,16.0249
+accuracy,plain Thread.sleep,10,12,15.6502
+accuracy,plain Thread.sleep,10,13,16.1326
+accuracy,plain Thread.sleep,10,14,16.392
+accuracy,plain Thread.sleep,10,15,15.9606
+accuracy,plain Thread.sleep,10,16,16.1339
+accuracy,plain Thread.sleep,10,17,15.9989
+accuracy,plain Thread.sleep,10,18,15.7388
+accuracy,plain Thread.sleep,10,19,16.1357
+accuracy,plain Thread.sleep,10,20,15.7681
+accuracy,plain Thread.sleep,10,21,16.1403
+accuracy,plain Thread.sleep,10,22,15.7095
+accuracy,plain Thread.sleep,10,23,15.7666
+accuracy,plain Thread.sleep,10,24,15.9057
+accuracy,plain Thread.sleep,10,25,15.7628
+accuracy,plain Thread.sleep,10,26,15.5028
+accuracy,plain Thread.sleep,10,27,15.9438
+accuracy,plain Thread.sleep,10,28,16.2509
+accuracy,plain Thread.sleep,10,29,15.5779
+accuracy,plain Thread.sleep,10,30,15.8686
+accuracy,plain Thread.sleep,10,31,16.0253
+accuracy,plain Thread.sleep,10,32,16.1602
+accuracy,plain Thread.sleep,10,33,15.6528
+accuracy,plain Thread.sleep,10,34,16.1328
+accuracy,plain Thread.sleep,10,35,16.6217
+accuracy,plain Thread.sleep,10,36,14.8505
+accuracy,plain Thread.sleep,10,37,16.7424
+accuracy,plain Thread.sleep,10,38,15.1233
+accuracy,plain Thread.sleep,10,39,16.7072
+accuracy,plain Thread.sleep,10,40,14.9664
+accuracy,plain Thread.sleep,10,41,16.7775
+accuracy,plain Thread.sleep,10,42,15.1566
+accuracy,plain Thread.sleep,10,43,16.6957
+accuracy,plain Thread.sleep,10,44,15.4186
+accuracy,plain Thread.sleep,10,45,16.3954
+accuracy,plain Thread.sleep,10,46,15.4053
+accuracy,plain Thread.sleep,10,47,16.5363
+accuracy,plain Thread.sleep,10,48,15.1081
+accuracy,plain Thread.sleep,10,49,16.6701
+accuracy,plain Thread.sleep,10,50,17.5384
+accuracy,plain Thread.sleep,10,51,13.1047
+accuracy,plain Thread.sleep,10,52,16.0309
+accuracy,plain Thread.sleep,10,53,16.4159
+accuracy,plain Thread.sleep,10,54,15.5132
+accuracy,plain Thread.sleep,10,55,15.7286
+accuracy,plain Thread.sleep,10,56,16.6653
+accuracy,plain Thread.sleep,10,57,15.8056
+accuracy,plain Thread.sleep,10,58,15.9017
+accuracy,plain Thread.sleep,10,59,15.7534
+accuracy,plain Thread.sleep,10,60,16.0844
+accuracy,plain Thread.sleep,10,61,15.6132
+accuracy,plain Thread.sleep,10,62,15.5433
+accuracy,plain Thread.sleep,10,63,15.7016
+accuracy,plain Thread.sleep,10,64,16.5647
+accuracy,plain Thread.sleep,10,65,15.6541
+accuracy,plain Thread.sleep,10,66,16.0158
+accuracy,plain Thread.sleep,10,67,15.709
+accuracy,plain Thread.sleep,10,68,16.6462
+accuracy,plain Thread.sleep,10,69,15.7794
+accuracy,plain Thread.sleep,10,70,16.3801
+accuracy,plain Thread.sleep,10,71,15.4674
+accuracy,plain Thread.sleep,10,72,16.0315
+accuracy,plain Thread.sleep,10,73,15.9043
+accuracy,plain Thread.sleep,10,74,16.5641
+accuracy,plain Thread.sleep,10,75,15.6787
+accuracy,plain Thread.sleep,10,76,18.9107
+accuracy,plain Thread.sleep,10,77,13.3943
+accuracy,plain Thread.sleep,10,78,15.1726
+accuracy,plain Thread.sleep,10,79,15.896
+accuracy,plain Thread.sleep,10,80,16.8278
+accuracy,plain Thread.sleep,10,81,16.1541
+accuracy,plain Thread.sleep,10,82,15.2471
+accuracy,plain Thread.sleep,10,83,15.9415
+accuracy,plain Thread.sleep,10,84,15.2987
+accuracy,plain Thread.sleep,10,85,16.4261
+accuracy,plain Thread.sleep,10,86,16.007
+accuracy,plain Thread.sleep,10,87,15.5648
+accuracy,plain Thread.sleep,10,88,16.1556
+accuracy,plain Thread.sleep,10,89,16.3072
+accuracy,plain Thread.sleep,10,90,16.0574
+accuracy,plain Thread.sleep,10,91,15.909
+accuracy,plain Thread.sleep,10,92,15.8374
+accuracy,plain Thread.sleep,10,93,15.9204
+accuracy,plain Thread.sleep,10,94,15.9274
+accuracy,plain Thread.sleep,10,95,15.6491
+accuracy,plain Thread.sleep,10,96,15.8447
+accuracy,plain Thread.sleep,10,97,16.0499
+accuracy,plain Thread.sleep,10,98,15.8036
+accuracy,plain Thread.sleep,10,99,16.0296
+accuracy,plain Thread.sleep,20,0,32.4286
+accuracy,plain Thread.sleep,20,1,32.0967
+accuracy,plain Thread.sleep,20,2,32.069
+accuracy,plain Thread.sleep,20,3,31.9453
+accuracy,plain Thread.sleep,20,4,31.9573
+accuracy,plain Thread.sleep,20,5,32.7604
+accuracy,plain Thread.sleep,20,6,20.2736
+accuracy,plain Thread.sleep,20,7,29.167
+accuracy,plain Thread.sleep,20,8,31.847
+accuracy,plain Thread.sleep,20,9,31.7025
+accuracy,plain Thread.sleep,20,10,31.5111
+accuracy,plain Thread.sleep,20,11,31.728
+accuracy,plain Thread.sleep,20,12,33.2608
+accuracy,plain Thread.sleep,20,13,30.1383
+accuracy,plain Thread.sleep,20,14,31.896
+accuracy,plain Thread.sleep,20,15,31.3046
+accuracy,plain Thread.sleep,20,16,31.4587
+accuracy,plain Thread.sleep,20,17,31.502
+accuracy,plain Thread.sleep,20,18,31.7982
+accuracy,plain Thread.sleep,20,19,31.6898
+accuracy,plain Thread.sleep,20,20,31.9105
+accuracy,plain Thread.sleep,20,21,30.8873
+accuracy,plain Thread.sleep,20,22,31.3157
+accuracy,plain Thread.sleep,20,23,31.4824
+accuracy,plain Thread.sleep,20,24,31.9055
+accuracy,plain Thread.sleep,20,25,31.9977
+accuracy,plain Thread.sleep,20,26,31.1954
+accuracy,plain Thread.sleep,20,27,31.6653
+accuracy,plain Thread.sleep,20,28,31.4959
+accuracy,plain Thread.sleep,20,29,31.5646
+accuracy,plain Thread.sleep,20,30,32.0885
+accuracy,plain Thread.sleep,20,31,31.9934
+accuracy,plain Thread.sleep,20,32,32.2655
+accuracy,plain Thread.sleep,20,33,32.447
+accuracy,plain Thread.sleep,20,34,33.1282
+accuracy,plain Thread.sleep,20,35,28.7052
+accuracy,plain Thread.sleep,20,36,22.8369
+accuracy,plain Thread.sleep,20,37,25.1134
+accuracy,plain Thread.sleep,20,38,29.9442
+accuracy,plain Thread.sleep,20,39,31.3686
+accuracy,plain Thread.sleep,20,40,30.7891
+accuracy,plain Thread.sleep,20,41,31.2472
+accuracy,plain Thread.sleep,20,42,31.5036
+accuracy,plain Thread.sleep,20,43,31.1643
+accuracy,plain Thread.sleep,20,44,31.6081
+accuracy,plain Thread.sleep,20,45,32.1056
+accuracy,plain Thread.sleep,20,46,32.0801
+accuracy,plain Thread.sleep,20,47,32.0362
+accuracy,plain Thread.sleep,20,48,32.5189
+accuracy,plain Thread.sleep,20,49,32.1933
+accuracy,plain Thread.sleep,20,50,31.8815
+accuracy,plain Thread.sleep,20,51,31.88
+accuracy,plain Thread.sleep,20,52,31.9076
+accuracy,plain Thread.sleep,20,53,31.516
+accuracy,plain Thread.sleep,20,54,32.6426
+accuracy,plain Thread.sleep,20,55,30.9176
+accuracy,plain Thread.sleep,20,56,31.1459
+accuracy,plain Thread.sleep,20,57,31.6552
+accuracy,plain Thread.sleep,20,58,32.0709
+accuracy,plain Thread.sleep,20,59,30.6759
+accuracy,plain Thread.sleep,20,60,32.3878
+accuracy,plain Thread.sleep,20,61,31.6895
+accuracy,plain Thread.sleep,20,62,31.6299
+accuracy,plain Thread.sleep,20,63,31.8041
+accuracy,plain Thread.sleep,20,64,32.3154
+accuracy,plain Thread.sleep,20,65,31.594
+accuracy,plain Thread.sleep,20,66,32.2495
+accuracy,plain Thread.sleep,20,67,31.8848
+accuracy,plain Thread.sleep,20,68,32.3761
+accuracy,plain Thread.sleep,20,69,31.6948
+accuracy,plain Thread.sleep,20,70,31.6614
+accuracy,plain Thread.sleep,20,71,31.2798
+accuracy,plain Thread.sleep,20,72,31.7062
+accuracy,plain Thread.sleep,20,73,31.6978
+accuracy,plain Thread.sleep,20,74,31.3735
+accuracy,plain Thread.sleep,20,75,31.0645
+accuracy,plain Thread.sleep,20,76,30.9092
+accuracy,plain Thread.sleep,20,77,32.0469
+accuracy,plain Thread.sleep,20,78,30.527
+accuracy,plain Thread.sleep,20,79,31.6284
+accuracy,plain Thread.sleep,20,80,31.7467
+accuracy,plain Thread.sleep,20,81,31.7708
+accuracy,plain Thread.sleep,20,82,31.9887
+accuracy,plain Thread.sleep,20,83,30.8434
+accuracy,plain Thread.sleep,20,84,31.0545
+accuracy,plain Thread.sleep,20,85,20.3287
+accuracy,plain Thread.sleep,20,86,22.3194
+accuracy,plain Thread.sleep,20,87,31.7855
+accuracy,plain Thread.sleep,20,88,32.4749
+accuracy,plain Thread.sleep,20,89,32.9201
+accuracy,plain Thread.sleep,20,90,33.7771
+accuracy,plain Thread.sleep,20,91,34.8782
+accuracy,plain Thread.sleep,20,92,32.2387
+accuracy,plain Thread.sleep,20,93,20.7059
+accuracy,plain Thread.sleep,20,94,31.3478
+accuracy,plain Thread.sleep,20,95,32.4381
+accuracy,plain Thread.sleep,20,96,30.23
+accuracy,plain Thread.sleep,20,97,31.7282
+accuracy,plain Thread.sleep,20,98,31.4265
+accuracy,plain Thread.sleep,20,99,31.8198
+accuracy,plain Thread.sleep,50,0,63.2454
+accuracy,plain Thread.sleep,50,1,62.9885
+accuracy,plain Thread.sleep,50,2,62.7883
+accuracy,plain Thread.sleep,50,3,63.0176
+accuracy,plain Thread.sleep,50,4,62.7305
+accuracy,plain Thread.sleep,50,5,63.0991
+accuracy,plain Thread.sleep,50,6,64.0543
+accuracy,plain Thread.sleep,50,7,63.6815
+accuracy,plain Thread.sleep,50,8,63.6467
+accuracy,plain Thread.sleep,50,9,62.7047
+accuracy,plain Thread.sleep,50,10,63.5911
+accuracy,plain Thread.sleep,50,11,63.5568
+accuracy,plain Thread.sleep,50,12,63.1218
+accuracy,plain Thread.sleep,50,13,68.7972
+accuracy,plain Thread.sleep,50,14,57.4119
+accuracy,plain Thread.sleep,50,15,63.4867
+accuracy,plain Thread.sleep,50,16,62.8666
+accuracy,plain Thread.sleep,50,17,63.2757
+accuracy,plain Thread.sleep,50,18,62.9608
+accuracy,plain Thread.sleep,50,19,62.8424
+accuracy,plain Thread.sleep,50,20,62.7754
+accuracy,plain Thread.sleep,50,21,63.3484
+accuracy,plain Thread.sleep,50,22,63.8676
+accuracy,plain Thread.sleep,50,23,63.8842
+accuracy,plain Thread.sleep,50,24,64.2988
+accuracy,plain Thread.sleep,50,25,63.3231
+accuracy,plain Thread.sleep,50,26,62.6103
+accuracy,plain Thread.sleep,50,27,63.147
+accuracy,plain Thread.sleep,50,28,63.4941
+accuracy,plain Thread.sleep,50,29,63.4554
+accuracy,plain Thread.sleep,50,30,63.0502
+accuracy,plain Thread.sleep,50,31,63.178
+accuracy,plain Thread.sleep,50,32,62.8141
+accuracy,plain Thread.sleep,50,33,62.8548
+accuracy,plain Thread.sleep,50,34,63.9192
+accuracy,plain Thread.sleep,50,35,63.768
+accuracy,plain Thread.sleep,50,36,63.4502
+accuracy,plain Thread.sleep,50,37,64.2149
+accuracy,plain Thread.sleep,50,38,65.449
+accuracy,plain Thread.sleep,50,39,64.1724
+accuracy,plain Thread.sleep,100,0,109.6255
+accuracy,plain Thread.sleep,100,1,109.849
+accuracy,plain Thread.sleep,100,2,110.5167
+accuracy,plain Thread.sleep,100,3,110.8264
+accuracy,plain Thread.sleep,100,4,109.4537
+accuracy,plain Thread.sleep,100,5,109.4364
+accuracy,plain Thread.sleep,100,6,109.3795
+accuracy,plain Thread.sleep,100,7,107.4812
+accuracy,plain Thread.sleep,100,8,111.3717
+accuracy,plain Thread.sleep,100,9,110.0086
+accuracy,plain Thread.sleep,100,10,110.0259
+accuracy,plain Thread.sleep,100,11,110.8297
+accuracy,plain Thread.sleep,100,12,108.4829
+accuracy,plain Thread.sleep,100,13,111.2087
+accuracy,plain Thread.sleep,100,14,111.0995
+accuracy,plain Thread.sleep,100,15,110.8743
+accuracy,plain Thread.sleep,100,16,112.3166
+accuracy,plain Thread.sleep,100,17,111.321
+accuracy,plain Thread.sleep,100,18,112.3798
+accuracy,plain Thread.sleep,100,19,112.0093
+accuracy,plain Thread.sleep,200,0,204.6142
+accuracy,plain Thread.sleep,200,1,207.6292
+accuracy,plain Thread.sleep,200,2,208.1593
+accuracy,plain Thread.sleep,200,3,206.6789
+accuracy,plain Thread.sleep,200,4,206.0333
+accuracy,plain Thread.sleep,200,5,207.3307
+accuracy,plain Thread.sleep,200,6,207.0273
+accuracy,plain Thread.sleep,200,7,207.818
+accuracy,plain Thread.sleep,200,8,207.1273
+accuracy,plain Thread.sleep,200,9,206.8636
+accuracy,plain Thread.sleep,200,10,205.4695
+accuracy,plain Thread.sleep,200,11,207.5932
+accuracy,plain Thread.sleep,200,12,206.1752
+accuracy,plain Thread.sleep,200,13,206.9609
+accuracy,plain Thread.sleep,200,14,207.0367
+accuracy,plain Thread.sleep,200,15,206.1028
+accuracy,plain Thread.sleep,200,16,207.0349
+accuracy,plain Thread.sleep,200,17,205.0118
+accuracy,plain Thread.sleep,200,18,206.1198
+accuracy,plain Thread.sleep,200,19,207.9728
+accuracy,parkNanos,1,0,16.1155
+accuracy,parkNanos,1,1,15.7911
+accuracy,parkNanos,1,2,16.1973
+accuracy,parkNanos,1,3,16.06
+accuracy,parkNanos,1,4,16.1199
+accuracy,parkNanos,1,5,16.1767
+accuracy,parkNanos,1,6,15.9202
+accuracy,parkNanos,1,7,15.7103
+accuracy,parkNanos,1,8,16.098
+accuracy,parkNanos,1,9,16.0428
+accuracy,parkNanos,1,10,15.8742
+accuracy,parkNanos,1,11,15.8597
+accuracy,parkNanos,1,12,16.0291
+accuracy,parkNanos,1,13,15.8518
+accuracy,parkNanos,1,14,16.1793
+accuracy,parkNanos,1,15,15.6893
+accuracy,parkNanos,1,16,16.0707
+accuracy,parkNanos,1,17,15.7652
+accuracy,parkNanos,1,18,15.9101
+accuracy,parkNanos,1,19,16.0075
+accuracy,parkNanos,1,20,16.1251
+accuracy,parkNanos,1,21,15.8266
+accuracy,parkNanos,1,22,16.0849
+accuracy,parkNanos,1,23,15.9377
+accuracy,parkNanos,1,24,15.7463
+accuracy,parkNanos,1,25,15.8951
+accuracy,parkNanos,1,26,16.0818
+accuracy,parkNanos,1,27,15.8457
+accuracy,parkNanos,1,28,16.0728
+accuracy,parkNanos,1,29,16.049
+accuracy,parkNanos,1,30,16.0606
+accuracy,parkNanos,1,31,15.9525
+accuracy,parkNanos,1,32,15.871
+accuracy,parkNanos,1,33,15.8815
+accuracy,parkNanos,1,34,16.014
+accuracy,parkNanos,1,35,15.8273
+accuracy,parkNanos,1,36,16.0463
+accuracy,parkNanos,1,37,15.7707
+accuracy,parkNanos,1,38,15.7774
+accuracy,parkNanos,1,39,15.8621
+accuracy,parkNanos,1,40,15.9267
+accuracy,parkNanos,1,41,15.7346
+accuracy,parkNanos,1,42,15.9831
+accuracy,parkNanos,1,43,15.9013
+accuracy,parkNanos,1,44,15.9129
+accuracy,parkNanos,1,45,15.8494
+accuracy,parkNanos,1,46,15.7282
+accuracy,parkNanos,1,47,15.8755
+accuracy,parkNanos,1,48,15.9003
+accuracy,parkNanos,1,49,15.8488
+accuracy,parkNanos,1,50,15.7929
+accuracy,parkNanos,1,51,16.1262
+accuracy,parkNanos,1,52,16.1928
+accuracy,parkNanos,1,53,16.0086
+accuracy,parkNanos,1,54,15.8832
+accuracy,parkNanos,1,55,15.8886
+accuracy,parkNanos,1,56,15.8768
+accuracy,parkNanos,1,57,15.8836
+accuracy,parkNanos,1,58,15.911
+accuracy,parkNanos,1,59,15.8678
+accuracy,parkNanos,1,60,16.146
+accuracy,parkNanos,1,61,15.8142
+accuracy,parkNanos,1,62,16.0941
+accuracy,parkNanos,1,63,15.8816
+accuracy,parkNanos,1,64,15.9028
+accuracy,parkNanos,1,65,15.8848
+accuracy,parkNanos,1,66,15.9345
+accuracy,parkNanos,1,67,15.9543
+accuracy,parkNanos,1,68,15.7435
+accuracy,parkNanos,1,69,16.1487
+accuracy,parkNanos,1,70,15.8703
+accuracy,parkNanos,1,71,15.8364
+accuracy,parkNanos,1,72,15.9662
+accuracy,parkNanos,1,73,15.8879
+accuracy,parkNanos,1,74,15.9016
+accuracy,parkNanos,1,75,15.8329
+accuracy,parkNanos,1,76,16.0091
+accuracy,parkNanos,1,77,15.8256
+accuracy,parkNanos,1,78,15.829
+accuracy,parkNanos,1,79,15.8075
+accuracy,parkNanos,1,80,15.8689
+accuracy,parkNanos,1,81,15.8549
+accuracy,parkNanos,1,82,15.8975
+accuracy,parkNanos,1,83,16.1021
+accuracy,parkNanos,1,84,15.8547
+accuracy,parkNanos,1,85,15.8693
+accuracy,parkNanos,1,86,16.1348
+accuracy,parkNanos,1,87,15.8634
+accuracy,parkNanos,1,88,15.5836
+accuracy,parkNanos,1,89,15.6905
+accuracy,parkNanos,1,90,15.7528
+accuracy,parkNanos,1,91,15.8511
+accuracy,parkNanos,1,92,16.0547
+accuracy,parkNanos,1,93,15.8449
+accuracy,parkNanos,1,94,15.8707
+accuracy,parkNanos,1,95,15.8469
+accuracy,parkNanos,1,96,15.8846
+accuracy,parkNanos,1,97,15.849
+accuracy,parkNanos,1,98,15.7987
+accuracy,parkNanos,1,99,15.8487
+accuracy,parkNanos,5,0,15.7782
+accuracy,parkNanos,5,1,15.8623
+accuracy,parkNanos,5,2,15.8812
+accuracy,parkNanos,5,3,15.7449
+accuracy,parkNanos,5,4,15.948
+accuracy,parkNanos,5,5,16.1421
+accuracy,parkNanos,5,6,16.1076
+accuracy,parkNanos,5,7,15.8048
+accuracy,parkNanos,5,8,15.8948
+accuracy,parkNanos,5,9,15.9206
+accuracy,parkNanos,5,10,17.3354
+accuracy,parkNanos,5,11,14.4159
+accuracy,parkNanos,5,12,15.9306
+accuracy,parkNanos,5,13,16.091
+accuracy,parkNanos,5,14,16.1748
+accuracy,parkNanos,5,15,15.8501
+accuracy,parkNanos,5,16,16.17
+accuracy,parkNanos,5,17,15.8596
+accuracy,parkNanos,5,18,15.8493
+accuracy,parkNanos,5,19,15.8722
+accuracy,parkNanos,5,20,16.0608
+accuracy,parkNanos,5,21,15.9196
+accuracy,parkNanos,5,22,15.7626
+accuracy,parkNanos,5,23,15.8246
+accuracy,parkNanos,5,24,16.0021
+accuracy,parkNanos,5,25,15.8187
+accuracy,parkNanos,5,26,16.1145
+accuracy,parkNanos,5,27,15.755
+accuracy,parkNanos,5,28,15.8981
+accuracy,parkNanos,5,29,15.8066
+accuracy,parkNanos,5,30,15.2637
+accuracy,parkNanos,5,31,15.7217
+accuracy,parkNanos,5,32,15.9571
+accuracy,parkNanos,5,33,15.973
+accuracy,parkNanos,5,34,15.9778
+accuracy,parkNanos,5,35,15.94
+accuracy,parkNanos,5,36,16.1486
+accuracy,parkNanos,5,37,15.6145
+accuracy,parkNanos,5,38,15.8292
+accuracy,parkNanos,5,39,15.8691
+accuracy,parkNanos,5,40,15.8302
+accuracy,parkNanos,5,41,15.7068
+accuracy,parkNanos,5,42,15.8539
+accuracy,parkNanos,5,43,16.1383
+accuracy,parkNanos,5,44,15.7889
+accuracy,parkNanos,5,45,16.1287
+accuracy,parkNanos,5,46,15.5095
+accuracy,parkNanos,5,47,16.0974
+accuracy,parkNanos,5,48,16.2716
+accuracy,parkNanos,5,49,16.1738
+accuracy,parkNanos,5,50,15.808
+accuracy,parkNanos,5,51,16.11
+accuracy,parkNanos,5,52,16.082
+accuracy,parkNanos,5,53,16.0845
+accuracy,parkNanos,5,54,15.9463
+accuracy,parkNanos,5,55,16.0159
+accuracy,parkNanos,5,56,16.0607
+accuracy,parkNanos,5,57,16.076
+accuracy,parkNanos,5,58,15.9207
+accuracy,parkNanos,5,59,15.7652
+accuracy,parkNanos,5,60,16.0782
+accuracy,parkNanos,5,61,15.8215
+accuracy,parkNanos,5,62,15.9818
+accuracy,parkNanos,5,63,15.8761
+accuracy,parkNanos,5,64,15.6229
+accuracy,parkNanos,5,65,15.5364
+accuracy,parkNanos,5,66,15.9262
+accuracy,parkNanos,5,67,16.0604
+accuracy,parkNanos,5,68,15.974
+accuracy,parkNanos,5,69,15.8075
+accuracy,parkNanos,5,70,15.8151
+accuracy,parkNanos,5,71,15.9565
+accuracy,parkNanos,5,72,15.8384
+accuracy,parkNanos,5,73,15.8369
+accuracy,parkNanos,5,74,16.1249
+accuracy,parkNanos,5,75,16.0416
+accuracy,parkNanos,5,76,16.0069
+accuracy,parkNanos,5,77,16.1642
+accuracy,parkNanos,5,78,16.1718
+accuracy,parkNanos,5,79,15.7849
+accuracy,parkNanos,5,80,16.0346
+accuracy,parkNanos,5,81,16.1148
+accuracy,parkNanos,5,82,15.9618
+accuracy,parkNanos,5,83,15.7579
+accuracy,parkNanos,5,84,15.7939
+accuracy,parkNanos,5,85,15.7923
+accuracy,parkNanos,5,86,15.9644
+accuracy,parkNanos,5,87,16.0164
+accuracy,parkNanos,5,88,16.0257
+accuracy,parkNanos,5,89,15.8171
+accuracy,parkNanos,5,90,16.0764
+accuracy,parkNanos,5,91,15.6992
+accuracy,parkNanos,5,92,15.7793
+accuracy,parkNanos,5,93,15.8271
+accuracy,parkNanos,5,94,16.1053
+accuracy,parkNanos,5,95,15.8075
+accuracy,parkNanos,5,96,15.8511
+accuracy,parkNanos,5,97,15.8442
+accuracy,parkNanos,5,98,15.8028
+accuracy,parkNanos,5,99,16.0036
+accuracy,parkNanos,10,0,16.0996
+accuracy,parkNanos,10,1,16.0175
+accuracy,parkNanos,10,2,16.1558
+accuracy,parkNanos,10,3,15.8157
+accuracy,parkNanos,10,4,15.9837
+accuracy,parkNanos,10,5,16.202
+accuracy,parkNanos,10,6,16.0547
+accuracy,parkNanos,10,7,15.897
+accuracy,parkNanos,10,8,15.8808
+accuracy,parkNanos,10,9,16.0989
+accuracy,parkNanos,10,10,15.736
+accuracy,parkNanos,10,11,15.8676
+accuracy,parkNanos,10,12,16.0277
+accuracy,parkNanos,10,13,15.9828
+accuracy,parkNanos,10,14,16.0814
+accuracy,parkNanos,10,15,15.9163
+accuracy,parkNanos,10,16,15.4201
+accuracy,parkNanos,10,17,15.5592
+accuracy,parkNanos,10,18,15.8314
+accuracy,parkNanos,10,19,15.7125
+accuracy,parkNanos,10,20,15.8354
+accuracy,parkNanos,10,21,15.8191
+accuracy,parkNanos,10,22,16.0474
+accuracy,parkNanos,10,23,15.7932
+accuracy,parkNanos,10,24,15.7997
+accuracy,parkNanos,10,25,15.8043
+accuracy,parkNanos,10,26,15.8143
+accuracy,parkNanos,10,27,15.8157
+accuracy,parkNanos,10,28,15.963
+accuracy,parkNanos,10,29,15.7651
+accuracy,parkNanos,10,30,16.0111
+accuracy,parkNanos,10,31,16.0497
+accuracy,parkNanos,10,32,15.9501
+accuracy,parkNanos,10,33,15.9855
+accuracy,parkNanos,10,34,15.8626
+accuracy,parkNanos,10,35,15.939
+accuracy,parkNanos,10,36,15.7983
+accuracy,parkNanos,10,37,16.1702
+accuracy,parkNanos,10,38,15.8049
+accuracy,parkNanos,10,39,15.8145
+accuracy,parkNanos,10,40,15.7915
+accuracy,parkNanos,10,41,16.1408
+accuracy,parkNanos,10,42,15.8297
+accuracy,parkNanos,10,43,16.2201
+accuracy,parkNanos,10,44,16.216
+accuracy,parkNanos,10,45,15.9705
+accuracy,parkNanos,10,46,16.1748
+accuracy,parkNanos,10,47,15.9296
+accuracy,parkNanos,10,48,16.1538
+accuracy,parkNanos,10,49,15.9286
+accuracy,parkNanos,10,50,15.8074
+accuracy,parkNanos,10,51,15.8499
+accuracy,parkNanos,10,52,15.9006
+accuracy,parkNanos,10,53,15.8774
+accuracy,parkNanos,10,54,15.6532
+accuracy,parkNanos,10,55,15.9478
+accuracy,parkNanos,10,56,16.0193
+accuracy,parkNanos,10,57,16.0016
+accuracy,parkNanos,10,58,15.7957
+accuracy,parkNanos,10,59,15.6832
+accuracy,parkNanos,10,60,16.0255
+accuracy,parkNanos,10,61,15.6074
+accuracy,parkNanos,10,62,15.7995
+accuracy,parkNanos,10,63,16.0841
+accuracy,parkNanos,10,64,15.7013
+accuracy,parkNanos,10,65,15.5119
+accuracy,parkNanos,10,66,15.6641
+accuracy,parkNanos,10,67,15.6539
+accuracy,parkNanos,10,68,15.6976
+accuracy,parkNanos,10,69,15.7271
+accuracy,parkNanos,10,70,15.8251
+accuracy,parkNanos,10,71,15.9048
+accuracy,parkNanos,10,72,15.8154
+accuracy,parkNanos,10,73,16.0796
+accuracy,parkNanos,10,74,15.7154
+accuracy,parkNanos,10,75,15.8202
+accuracy,parkNanos,10,76,15.8394
+accuracy,parkNanos,10,77,15.8991
+accuracy,parkNanos,10,78,15.8203
+accuracy,parkNanos,10,79,15.8753
+accuracy,parkNanos,10,80,15.9274
+accuracy,parkNanos,10,81,16.1685
+accuracy,parkNanos,10,82,16.0188
+accuracy,parkNanos,10,83,15.9142
+accuracy,parkNanos,10,84,15.8719
+accuracy,parkNanos,10,85,15.8351
+accuracy,parkNanos,10,86,15.9772
+accuracy,parkNanos,10,87,15.8788
+accuracy,parkNanos,10,88,15.8093
+accuracy,parkNanos,10,89,15.8539
+accuracy,parkNanos,10,90,15.8344
+accuracy,parkNanos,10,91,15.857
+accuracy,parkNanos,10,92,15.8333
+accuracy,parkNanos,10,93,15.867
+accuracy,parkNanos,10,94,15.9427
+accuracy,parkNanos,10,95,15.6804
+accuracy,parkNanos,10,96,15.8211
+accuracy,parkNanos,10,97,15.8272
+accuracy,parkNanos,10,98,15.9956
+accuracy,parkNanos,10,99,15.7818
+accuracy,parkNanos,20,0,31.904
+accuracy,parkNanos,20,1,31.7363
+accuracy,parkNanos,20,2,31.8896
+accuracy,parkNanos,20,3,31.6613
+accuracy,parkNanos,20,4,31.8126
+accuracy,parkNanos,20,5,32.0502
+accuracy,parkNanos,20,6,31.629
+accuracy,parkNanos,20,7,31.8608
+accuracy,parkNanos,20,8,31.8456
+accuracy,parkNanos,20,9,31.6487
+accuracy,parkNanos,20,10,31.7056
+accuracy,parkNanos,20,11,32.1394
+accuracy,parkNanos,20,12,31.7968
+accuracy,parkNanos,20,13,31.9386
+accuracy,parkNanos,20,14,31.8526
+accuracy,parkNanos,20,15,31.5546
+accuracy,parkNanos,20,16,31.3966
+accuracy,parkNanos,20,17,31.5866
+accuracy,parkNanos,20,18,31.5082
+accuracy,parkNanos,20,19,31.7961
+accuracy,parkNanos,20,20,31.913
+accuracy,parkNanos,20,21,31.3183
+accuracy,parkNanos,20,22,31.2848
+accuracy,parkNanos,20,23,31.3986
+accuracy,parkNanos,20,24,31.5203
+accuracy,parkNanos,20,25,31.7709
+accuracy,parkNanos,20,26,31.4187
+accuracy,parkNanos,20,27,31.5735
+accuracy,parkNanos,20,28,31.7499
+accuracy,parkNanos,20,29,31.9896
+accuracy,parkNanos,20,30,31.5553
+accuracy,parkNanos,20,31,31.5946
+accuracy,parkNanos,20,32,31.7357
+accuracy,parkNanos,20,33,31.7374
+accuracy,parkNanos,20,34,31.7177
+accuracy,parkNanos,20,35,31.3089
+accuracy,parkNanos,20,36,31.8111
+accuracy,parkNanos,20,37,31.8001
+accuracy,parkNanos,20,38,31.4991
+accuracy,parkNanos,20,39,31.6595
+accuracy,parkNanos,20,40,31.9917
+accuracy,parkNanos,20,41,31.9126
+accuracy,parkNanos,20,42,31.6067
+accuracy,parkNanos,20,43,31.4735
+accuracy,parkNanos,20,44,31.5681
+accuracy,parkNanos,20,45,31.6915
+accuracy,parkNanos,20,46,31.6835
+accuracy,parkNanos,20,47,31.6248
+accuracy,parkNanos,20,48,31.5362
+accuracy,parkNanos,20,49,31.7334
+accuracy,parkNanos,20,50,31.9058
+accuracy,parkNanos,20,51,32.1399
+accuracy,parkNanos,20,52,32.2125
+accuracy,parkNanos,20,53,31.9115
+accuracy,parkNanos,20,54,32.181
+accuracy,parkNanos,20,55,31.9993
+accuracy,parkNanos,20,56,32.1047
+accuracy,parkNanos,20,57,32.4418
+accuracy,parkNanos,20,58,32.3137
+accuracy,parkNanos,20,59,32.1123
+accuracy,parkNanos,20,60,33.9568
+accuracy,parkNanos,20,61,30.2196
+accuracy,parkNanos,20,62,32.0454
+accuracy,parkNanos,20,63,31.8024
+accuracy,parkNanos,20,64,31.9817
+accuracy,parkNanos,20,65,32.5192
+accuracy,parkNanos,20,66,31.6363
+accuracy,parkNanos,20,67,32.2459
+accuracy,parkNanos,20,68,32.1918
+accuracy,parkNanos,20,69,32.1505
+accuracy,parkNanos,20,70,31.9937
+accuracy,parkNanos,20,71,32.1528
+accuracy,parkNanos,20,72,32.5288
+accuracy,parkNanos,20,73,32.1125
+accuracy,parkNanos,20,74,31.7875
+accuracy,parkNanos,20,75,32.3175
+accuracy,parkNanos,20,76,31.9194
+accuracy,parkNanos,20,77,32.1773
+accuracy,parkNanos,20,78,31.8658
+accuracy,parkNanos,20,79,31.9771
+accuracy,parkNanos,20,80,33.2588
+accuracy,parkNanos,20,81,31.5697
+accuracy,parkNanos,20,82,31.618
+accuracy,parkNanos,20,83,32.0531
+accuracy,parkNanos,20,84,32.1527
+accuracy,parkNanos,20,85,31.4797
+accuracy,parkNanos,20,86,32.119
+accuracy,parkNanos,20,87,40.3716
+accuracy,parkNanos,20,88,24.146
+accuracy,parkNanos,20,89,32.3746
+accuracy,parkNanos,20,90,32.5422
+accuracy,parkNanos,20,91,32.0737
+accuracy,parkNanos,20,92,32.1029
+accuracy,parkNanos,20,93,32.3285
+accuracy,parkNanos,20,94,31.7715
+accuracy,parkNanos,20,95,31.7806
+accuracy,parkNanos,20,96,32.3213
+accuracy,parkNanos,20,97,32.3121
+accuracy,parkNanos,20,98,31.0625
+accuracy,parkNanos,20,99,31.7975
+accuracy,parkNanos,50,0,64.8635
+accuracy,parkNanos,50,1,64.8167
+accuracy,parkNanos,50,2,63.5388
+accuracy,parkNanos,50,3,63.9605
+accuracy,parkNanos,50,4,64.2856
+accuracy,parkNanos,50,5,64.2807
+accuracy,parkNanos,50,6,64.5162
+accuracy,parkNanos,50,7,65.0032
+accuracy,parkNanos,50,8,64.7557
+accuracy,parkNanos,50,9,63.7018
+accuracy,parkNanos,50,10,64.1598
+accuracy,parkNanos,50,11,63.8217
+accuracy,parkNanos,50,12,65.0022
+accuracy,parkNanos,50,13,62.6833
+accuracy,parkNanos,50,14,63.7069
+accuracy,parkNanos,50,15,63.8976
+accuracy,parkNanos,50,16,62.9531
+accuracy,parkNanos,50,17,64.1875
+accuracy,parkNanos,50,18,63.7555
+accuracy,parkNanos,50,19,63.7277
+accuracy,parkNanos,50,20,63.1391
+accuracy,parkNanos,50,21,64.7736
+accuracy,parkNanos,50,22,64.6819
+accuracy,parkNanos,50,23,64.1315
+accuracy,parkNanos,50,24,64.3028
+accuracy,parkNanos,50,25,64.4219
+accuracy,parkNanos,50,26,65.4106
+accuracy,parkNanos,50,27,63.4098
+accuracy,parkNanos,50,28,64.7508
+accuracy,parkNanos,50,29,63.5874
+accuracy,parkNanos,50,30,64.6235
+accuracy,parkNanos,50,31,64.6423
+accuracy,parkNanos,50,32,64.623
+accuracy,parkNanos,50,33,64.4885
+accuracy,parkNanos,50,34,63.9892
+accuracy,parkNanos,50,35,64.8424
+accuracy,parkNanos,50,36,66.2313
+accuracy,parkNanos,50,37,62.5788
+accuracy,parkNanos,50,38,64.6596
+accuracy,parkNanos,50,39,64.309
+accuracy,parkNanos,100,0,112.723
+accuracy,parkNanos,100,1,111.9428
+accuracy,parkNanos,100,2,112.6906
+accuracy,parkNanos,100,3,113.0567
+accuracy,parkNanos,100,4,112.2976
+accuracy,parkNanos,100,5,112.6356
+accuracy,parkNanos,100,6,112.7416
+accuracy,parkNanos,100,7,113.0327
+accuracy,parkNanos,100,8,114.8431
+accuracy,parkNanos,100,9,110.7357
+accuracy,parkNanos,100,10,112.8644
+accuracy,parkNanos,100,11,112.7981
+accuracy,parkNanos,100,12,112.6738
+accuracy,parkNanos,100,13,112.9823
+accuracy,parkNanos,100,14,112.6369
+accuracy,parkNanos,100,15,112.5411
+accuracy,parkNanos,100,16,112.4198
+accuracy,parkNanos,100,17,112.7216
+accuracy,parkNanos,100,18,112.8365
+accuracy,parkNanos,100,19,112.9781
+accuracy,parkNanos,200,0,209.3881
+accuracy,parkNanos,200,1,208.9763
+accuracy,parkNanos,200,2,208.9075
+accuracy,parkNanos,200,3,209.6686
+accuracy,parkNanos,200,4,209.4465
+accuracy,parkNanos,200,5,209.6635
+accuracy,parkNanos,200,6,209.8106
+accuracy,parkNanos,200,7,208.9902
+accuracy,parkNanos,200,8,209.0643
+accuracy,parkNanos,200,9,208.9236
+accuracy,parkNanos,200,10,209.1608
+accuracy,parkNanos,200,11,208.7457
+accuracy,parkNanos,200,12,209.563
+accuracy,parkNanos,200,13,209.9066
+accuracy,parkNanos,200,14,209.1792
+accuracy,parkNanos,200,15,209.6036
+accuracy,parkNanos,200,16,209.2723
+accuracy,parkNanos,200,17,207.0237
+accuracy,parkNanos,200,18,208.9121
+accuracy,parkNanos,200,19,209.615
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,0,1.0007
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,1,1.0006
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,2,1.0801
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,3,1.0066
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,4,1.0023
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,5,1.6027
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,6,1.0007
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,7,1.0006
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,8,1.0029
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,9,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,10,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,11,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,12,1.0004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,13,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,14,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,15,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,16,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,17,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,18,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,19,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,20,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,21,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,22,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,23,1.0004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,24,1.0018
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,25,1.0014
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,26,1.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,27,1.0008
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,28,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,29,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,30,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,31,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,32,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,33,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,34,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,35,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,36,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,37,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,38,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,39,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,40,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,41,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,42,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,43,1.0015
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,44,1.0014
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,45,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,46,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,47,1.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,48,1.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,49,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,50,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,51,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,52,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,53,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,54,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,55,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,56,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,57,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,58,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,59,1.0004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,60,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,61,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,62,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,63,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,64,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,65,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,66,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,67,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,68,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,69,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,70,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,71,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,72,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,73,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,74,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,75,1.0006
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,76,1.0004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,77,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,78,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,79,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,80,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,81,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,82,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,83,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,84,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,85,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,86,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,87,1.0014
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,88,1.0008
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,89,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,90,1.0003
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,91,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,92,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,93,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,94,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,95,1.0001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,96,1.0007
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,97,1.0013
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,98,1.0007
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,1,99,1.0002
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,0,5.0025
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,1,5.0014
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,2,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,3,5.0022
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,4,5.0021
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,5,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,6,5.0013
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,7,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,8,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,9,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,10,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,11,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,12,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,13,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,14,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,15,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,16,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,17,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,18,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,19,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,20,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,21,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,22,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,23,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,24,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,25,5.0051
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,26,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,27,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,28,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,29,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,30,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,31,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,32,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,33,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,34,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,35,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,36,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,37,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,38,5.0015
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,39,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,40,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,41,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,42,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,43,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,44,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,45,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,46,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,47,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,48,5.0013
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,49,5.0015
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,50,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,51,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,52,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,53,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,54,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,55,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,56,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,57,5.0013
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,58,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,59,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,60,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,61,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,62,5.0009
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,63,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,64,5.0057
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,65,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,66,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,67,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,68,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,69,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,70,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,71,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,72,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,73,5.0014
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,74,5.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,75,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,76,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,77,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,78,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,79,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,80,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,81,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,82,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,83,5.0014
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,84,5.0014
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,85,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,86,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,87,5.0013
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,88,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,89,6.9353
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,90,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,91,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,92,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,93,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,94,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,95,5.0053
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,96,5.0013
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,97,5.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,98,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,5,99,5.001
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,0,10.0028
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,1,10.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,2,10.0011
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,3,10.0012
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,4,10.0028
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,5,10.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,6,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,7,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,8,10.005
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,9,10.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,10,10.0048
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,11,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,12,10.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,13,10.0048
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,14,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,15,10.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,16,10.005
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,17,10.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,18,10.0047
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,19,10.0049
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,20,10.0718
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,21,10.0053
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,22,10.0046
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,23,10.0396
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,24,10.0052
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,25,10.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,26,10.0059
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,27,10.005
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,28,10.0053
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,29,10.0046
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,30,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,31,10.0053
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,32,10.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,33,10.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,34,10.0053
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,35,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,36,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,37,10.005
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,38,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,39,10.0053
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,40,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,41,10.0055
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,42,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,43,10.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,44,10.0174
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,45,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,46,10.0048
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,47,10.0051
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,48,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,49,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,50,10.061
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,51,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,52,10.2259
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,53,10.0234
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,54,10.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,55,10.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,56,10.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,57,10.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,58,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,59,10.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,60,10.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,61,10.0047
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,62,10.0308
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,63,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,64,10.0053
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,65,10.0458
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,66,10.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,67,10.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,68,10.0583
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,69,10.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,70,10.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,71,10.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,72,10.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,73,10.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,74,10.0126
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,75,10.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,76,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,77,10.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,78,10.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,79,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,80,10.0047
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,81,10.0034
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,82,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,83,10.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,84,10.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,85,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,86,10.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,87,10.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,88,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,89,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,90,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,91,10.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,92,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,93,10.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,94,10.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,95,10.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,96,10.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,97,10.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,98,10.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,10,99,10.0048
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,0,20.0057
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,1,20.0103
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,2,20.0046
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,3,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,4,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,5,20.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,6,20.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,7,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,8,20.0047
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,9,20.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,10,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,11,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,12,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,13,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,14,20.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,15,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,16,20.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,17,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,18,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,19,20.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,20,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,21,20.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,22,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,23,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,24,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,25,20.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,26,20.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,27,20.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,28,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,29,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,30,20.0034
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,31,20.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,32,20.0029
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,33,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,34,20.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,35,20.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,36,20.0034
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,37,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,38,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,39,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,40,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,41,20.0048
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,42,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,43,20.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,44,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,45,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,46,20.0034
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,47,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,48,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,49,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,50,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,51,20.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,52,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,53,20.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,54,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,55,20.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,56,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,57,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,58,20.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,59,20.0046
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,60,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,61,20.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,62,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,63,20.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,64,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,65,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,66,20.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,67,20.0048
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,68,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,69,20.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,70,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,71,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,72,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,73,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,74,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,75,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,76,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,77,20.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,78,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,79,20.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,80,20.0055
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,81,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,82,20.0035
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,83,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,84,20.0046
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,85,20.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,86,20.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,87,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,88,20.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,89,20.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,90,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,91,20.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,92,20.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,93,20.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,94,20.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,95,22.6637
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,96,20.0051
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,97,20.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,98,20.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,20,99,20.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,0,50.0056
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,1,50.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,2,50.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,3,50.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,4,50.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,5,50.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,6,50.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,7,50.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,8,50.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,9,50.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,10,50.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,11,50.0034
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,12,50.0034
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,13,50.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,14,50.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,15,50.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,16,50.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,17,50.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,18,50.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,19,50.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,20,50.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,21,50.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,22,50.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,23,50.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,24,50.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,25,50.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,26,50.0046
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,27,50.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,28,50.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,29,50.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,30,50.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,31,50.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,32,50.0054
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,33,50.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,34,50.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,35,50.0047
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,36,50.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,37,50.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,38,50.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,50,39,50.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,0,100.0057
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,1,100.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,2,100.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,3,100.004
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,4,100.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,5,100.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,6,100.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,7,100.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,8,100.0052
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,9,100.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,10,100.005
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,11,100.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,12,100.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,13,100.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,14,100.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,15,100.0038
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,16,100.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,17,100.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,18,100.0037
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,100,19,100.0045
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,0,200.0064
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,1,200.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,2,200.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,3,200.0049
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,4,200.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,5,200.0049
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,6,200.0036
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,7,200.0046
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,8,200.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,9,200.0517
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,10,200.0047
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,11,200.0039
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,12,200.0133
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,13,200.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,14,200.0044
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,15,200.0043
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,16,200.0042
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,17,200.0051
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,18,200.0041
+accuracy,timed (1 ms sleeps + 2 ms spin tail) <- used by the driver,200,19,200.0052
+parallel-sleep,makespan,1,0,50.0265
+parallel-sleep,makespan,1,1,50.0385
+parallel-sleep,makespan,1,2,50.0292
+parallel-sleep,makespan,1,3,50.0203
+parallel-sleep,makespan,1,4,50.0182
+parallel-sleep,makespan,1,5,50.0301
+parallel-sleep,makespan,1,6,50.029
+parallel-sleep,makespan,1,7,50.0449
+parallel-sleep,makespan,1,8,50.0366
+parallel-sleep,makespan,1,9,50.0209
+parallel-sleep,makespan,1,10,50.021
+parallel-sleep,makespan,1,11,50.0397
+parallel-sleep,makespan,1,12,50.0243
+parallel-sleep,makespan,1,13,50.0238
+parallel-sleep,makespan,1,14,50.0195
+parallel-sleep,makespan,1,15,50.0362
+parallel-sleep,makespan,1,16,50.0392
+parallel-sleep,makespan,1,17,50.0284
+parallel-sleep,makespan,1,18,50.0392
+parallel-sleep,makespan,1,19,51.387
+parallel-sleep,makespan,1,20,50.0365
+parallel-sleep,makespan,1,21,50.023
+parallel-sleep,makespan,1,22,50.0366
+parallel-sleep,makespan,1,23,50.0367
+parallel-sleep,makespan,1,24,50.0529
+parallel-sleep,makespan,1,25,50.6416
+parallel-sleep,makespan,1,26,50.0356
+parallel-sleep,makespan,1,27,50.0345
+parallel-sleep,makespan,1,28,63.1276
+parallel-sleep,makespan,1,29,50.0179
+parallel-sleep,makespan,2,0,50.2094
+parallel-sleep,makespan,2,1,50.0425
+parallel-sleep,makespan,2,2,50.052
+parallel-sleep,makespan,2,3,50.2038
+parallel-sleep,makespan,2,4,50.296
+parallel-sleep,makespan,2,5,50.0444
+parallel-sleep,makespan,2,6,50.141
+parallel-sleep,makespan,2,7,50.147
+parallel-sleep,makespan,2,8,52.5
+parallel-sleep,makespan,2,9,50.1428
+parallel-sleep,makespan,2,10,50.1726
+parallel-sleep,makespan,2,11,50.0698
+parallel-sleep,makespan,2,12,50.1624
+parallel-sleep,makespan,2,13,50.0601
+parallel-sleep,makespan,2,14,50.0665
+parallel-sleep,makespan,2,15,50.178
+parallel-sleep,makespan,2,16,50.1504
+parallel-sleep,makespan,2,17,51.1101
+parallel-sleep,makespan,2,18,50.0344
+parallel-sleep,makespan,2,19,50.159
+parallel-sleep,makespan,2,20,50.1635
+parallel-sleep,makespan,2,21,50.0499
+parallel-sleep,makespan,2,22,50.0576
+parallel-sleep,makespan,2,23,50.2638
+parallel-sleep,makespan,2,24,50.3369
+parallel-sleep,makespan,2,25,50.1658
+parallel-sleep,makespan,2,26,50.1579
+parallel-sleep,makespan,2,27,50.0502
+parallel-sleep,makespan,2,28,50.1402
+parallel-sleep,makespan,2,29,50.0396
+parallel-sleep,makespan,4,0,50.2194
+parallel-sleep,makespan,4,1,52.733
+parallel-sleep,makespan,4,2,50.3606
+parallel-sleep,makespan,4,3,50.3243
+parallel-sleep,makespan,4,4,50.2075
+parallel-sleep,makespan,4,5,50.3277
+parallel-sleep,makespan,4,6,50.2526
+parallel-sleep,makespan,4,7,50.567
+parallel-sleep,makespan,4,8,50.2606
+parallel-sleep,makespan,4,9,50.1489
+parallel-sleep,makespan,4,10,50.1564
+parallel-sleep,makespan,4,11,50.4195
+parallel-sleep,makespan,4,12,50.3797
+parallel-sleep,makespan,4,13,50.3695
+parallel-sleep,makespan,4,14,50.3014
+parallel-sleep,makespan,4,15,50.2399
+parallel-sleep,makespan,4,16,50.3648
+parallel-sleep,makespan,4,17,50.3408
+parallel-sleep,makespan,4,18,50.4131
+parallel-sleep,makespan,4,19,50.4343
+parallel-sleep,makespan,4,20,50.2426
+parallel-sleep,makespan,4,21,51.0422
+parallel-sleep,makespan,4,22,50.4423
+parallel-sleep,makespan,4,23,50.5936
+parallel-sleep,makespan,4,24,50.2078
+parallel-sleep,makespan,4,25,50.2029
+parallel-sleep,makespan,4,26,50.0993
+parallel-sleep,makespan,4,27,50.287
+parallel-sleep,makespan,4,28,50.2404
+parallel-sleep,makespan,4,29,50.325
+parallel-sleep,makespan,8,0,50.5687
+parallel-sleep,makespan,8,1,50.1882
+parallel-sleep,makespan,8,2,50.4713
+parallel-sleep,makespan,8,3,52.8175
+parallel-sleep,makespan,8,4,50.1939
+parallel-sleep,makespan,8,5,50.4917
+parallel-sleep,makespan,8,6,50.521
+parallel-sleep,makespan,8,7,50.4321
+parallel-sleep,makespan,8,8,50.3585
+parallel-sleep,makespan,8,9,50.4709
+parallel-sleep,makespan,8,10,50.3634
+parallel-sleep,makespan,8,11,50.5961
+parallel-sleep,makespan,8,12,50.5496
+parallel-sleep,makespan,8,13,50.4016
+parallel-sleep,makespan,8,14,50.4265
+parallel-sleep,makespan,8,15,50.4387
+parallel-sleep,makespan,8,16,50.4808
+parallel-sleep,makespan,8,17,50.4389
+parallel-sleep,makespan,8,18,50.3957
+parallel-sleep,makespan,8,19,50.7038
+parallel-sleep,makespan,8,20,50.4585
+parallel-sleep,makespan,8,21,50.4472
+parallel-sleep,makespan,8,22,50.6709
+parallel-sleep,makespan,8,23,50.4619
+parallel-sleep,makespan,8,24,50.4319
+parallel-sleep,makespan,8,25,50.4204
+parallel-sleep,makespan,8,26,50.5646
+parallel-sleep,makespan,8,27,50.4396
+parallel-sleep,makespan,8,28,50.4098
+parallel-sleep,makespan,8,29,50.5264
+parallel-sleep,makespan,12,0,50.6246
+parallel-sleep,makespan,12,1,50.7097
+parallel-sleep,makespan,12,2,50.1399
+parallel-sleep,makespan,12,3,50.7534
+parallel-sleep,makespan,12,4,50.4941
+parallel-sleep,makespan,12,5,50.6825
+parallel-sleep,makespan,12,6,50.5457
+parallel-sleep,makespan,12,7,50.6132
+parallel-sleep,makespan,12,8,50.6822
+parallel-sleep,makespan,12,9,50.327
+parallel-sleep,makespan,12,10,50.7837
+parallel-sleep,makespan,12,11,50.6044
+parallel-sleep,makespan,12,12,50.6925
+parallel-sleep,makespan,12,13,50.5788
+parallel-sleep,makespan,12,14,50.6746
+parallel-sleep,makespan,12,15,50.4748
+parallel-sleep,makespan,12,16,50.1898
+parallel-sleep,makespan,12,17,50.4082
+parallel-sleep,makespan,12,18,50.8834
+parallel-sleep,makespan,12,19,50.6071
+parallel-sleep,makespan,12,20,50.7393
+parallel-sleep,makespan,12,21,50.6097
+parallel-sleep,makespan,12,22,50.5669
+parallel-sleep,makespan,12,23,50.6056
+parallel-sleep,makespan,12,24,50.5452
+parallel-sleep,makespan,12,25,50.7756
+parallel-sleep,makespan,12,26,50.6934
+parallel-sleep,makespan,12,27,50.5886
+parallel-sleep,makespan,12,28,50.5517
+parallel-sleep,makespan,12,29,50.9008
+parallel-sleep,makespan,16,0,50.1593
+parallel-sleep,makespan,16,1,50.5327
+parallel-sleep,makespan,16,2,50.885
+parallel-sleep,makespan,16,3,50.6635
+parallel-sleep,makespan,16,4,50.7608
+parallel-sleep,makespan,16,5,50.1835
+parallel-sleep,makespan,16,6,50.1969
+parallel-sleep,makespan,16,7,51.2192
+parallel-sleep,makespan,16,8,50.8761
+parallel-sleep,makespan,16,9,50.6454
+parallel-sleep,makespan,16,10,51.0949
+parallel-sleep,makespan,16,11,50.4529
+parallel-sleep,makespan,16,12,50.9293
+parallel-sleep,makespan,16,13,50.185
+parallel-sleep,makespan,16,14,50.9202
+parallel-sleep,makespan,16,15,50.4062
+parallel-sleep,makespan,16,16,50.8138
+parallel-sleep,makespan,16,17,51.0483
+parallel-sleep,makespan,16,18,50.8795
+parallel-sleep,makespan,16,19,50.6903
+parallel-sleep,makespan,16,20,50.9228
+parallel-sleep,makespan,16,21,50.6397
+parallel-sleep,makespan,16,22,50.8419
+parallel-sleep,makespan,16,23,50.4287
+parallel-sleep,makespan,16,24,51.0076
+parallel-sleep,makespan,16,25,50.7488
+parallel-sleep,makespan,16,26,50.3398
+parallel-sleep,makespan,16,27,50.4539
+parallel-sleep,makespan,16,28,50.8885
+parallel-sleep,makespan,16,29,50.4735
+spin-rate,iters-per-ms,single,0,749595.9677733701
+spin-rate,iters-per-ms,single,1,745056.5497921293
+spin-rate,iters-per-ms,single,2,746208.5145376343
+spin-rate,iters-per-ms,single,3,748840.4206086873
+spin-rate,iters-per-ms,single,4,751086.822632349
+spin-rate,iters-per-ms,single,5,752602.8770502785
+spin-rate,iters-per-ms,single,6,752911.1308875767
+spin-rate,iters-per-ms,single,7,741329.4112065284
+spin-rate,iters-per-ms,single,8,747282.5071627029
+spin-rate,iters-per-ms,single,9,750025.5008670294
+spin-rate,iters-per-ms,single,10,752054.9902608879
+spin-rate,iters-per-ms,single,11,751632.1692555384
+spin-rate,iters-per-ms,single,12,750603.1095985625
+spin-rate,iters-per-ms,single,13,737484.881559928
+spin-rate,iters-per-ms,single,14,748152.4375554568
+spin-accuracy,spin,10,0,10.7214
+spin-accuracy,spin,10,1,10.1186
+spin-accuracy,spin,10,2,10.0413
+spin-accuracy,spin,10,3,9.9847
+spin-accuracy,spin,10,4,9.9534
+spin-accuracy,spin,10,5,9.9958
+spin-accuracy,spin,10,6,9.9783
+spin-accuracy,spin,10,7,9.9689
+spin-accuracy,spin,10,8,10.0403
+spin-accuracy,spin,10,9,9.9465
+spin-accuracy,spin,10,10,9.9487
+spin-accuracy,spin,10,11,9.9702
+spin-accuracy,spin,10,12,9.9396
+spin-accuracy,spin,10,13,10.1002
+spin-accuracy,spin,10,14,10.1473
+spin-accuracy,spin,10,15,9.9318
+spin-accuracy,spin,10,16,10.0353
+spin-accuracy,spin,10,17,10.0774
+spin-accuracy,spin,10,18,10.0883
+spin-accuracy,spin,10,19,9.97
+spin-accuracy,spin,50,0,51.0101
+spin-accuracy,spin,50,1,50.1693
+spin-accuracy,spin,50,2,50.0811
+spin-accuracy,spin,50,3,49.9628
+spin-accuracy,spin,50,4,49.8972
+spin-accuracy,spin,50,5,49.9072
+spin-accuracy,spin,50,6,50.8157
+spin-accuracy,spin,50,7,50.2608
+spin-accuracy,spin,50,8,49.9848
+spin-accuracy,spin,50,9,50.0352
+spin-accuracy,spin,50,10,49.8
+spin-accuracy,spin,50,11,49.8036
+spin-accuracy,spin,50,12,49.962
+spin-accuracy,spin,50,13,49.7717
+spin-accuracy,spin,50,14,50.017
+spin-accuracy,spin,50,15,50.0498
+spin-accuracy,spin,50,16,50.1988
+spin-accuracy,spin,50,17,49.9007
+spin-accuracy,spin,50,18,49.9503
+spin-accuracy,spin,50,19,49.9849
+spin-accuracy,spin,100,0,102.5962
+spin-accuracy,spin,100,1,99.8485
+spin-accuracy,spin,100,2,100.8784
+spin-accuracy,spin,100,3,100.1599
+spin-accuracy,spin,100,4,99.9941
+spin-accuracy,spin,100,5,100.3561
+spin-accuracy,spin,100,6,102.0895
+spin-accuracy,spin,100,7,99.695
+spin-accuracy,spin,100,8,100.0055
+spin-accuracy,spin,100,9,100.0911
+spin-accuracy,spin,100,10,100.2436
+spin-accuracy,spin,100,11,99.8148
+spin-accuracy,spin,100,12,100.0492
+spin-accuracy,spin,100,13,99.8736
+spin-accuracy,spin,100,14,99.9964
+spin-accuracy,spin,100,15,99.6383
+spin-accuracy,spin,100,16,99.5787
+spin-accuracy,spin,100,17,99.7453
+spin-accuracy,spin,100,18,99.828
+spin-accuracy,spin,100,19,99.9703
+parallel-spin,makespan,1,0,99.6677
+parallel-spin,makespan,1,1,100.2697
+parallel-spin,makespan,1,2,100.2077
+parallel-spin,makespan,1,3,99.815
+parallel-spin,makespan,1,4,100.1326
+parallel-spin,makespan,1,5,99.5824
+parallel-spin,makespan,1,6,99.8464
+parallel-spin,makespan,1,7,99.6703
+parallel-spin,makespan,1,8,100.2374
+parallel-spin,makespan,1,9,101.0619
+parallel-spin,makespan,1,10,100.1079
+parallel-spin,makespan,1,11,100.5014
+parallel-spin,makespan,1,12,100.298
+parallel-spin,makespan,1,13,101.155
+parallel-spin,makespan,1,14,101.8909
+parallel-spin,makespan,2,0,106.8677
+parallel-spin,makespan,2,1,107.3529
+parallel-spin,makespan,2,2,110.0369
+parallel-spin,makespan,2,3,108.9913
+parallel-spin,makespan,2,4,108.2941
+parallel-spin,makespan,2,5,107.1655
+parallel-spin,makespan,2,6,106.8408
+parallel-spin,makespan,2,7,106.5139
+parallel-spin,makespan,2,8,106.529
+parallel-spin,makespan,2,9,107.2872
+parallel-spin,makespan,2,10,106.8942
+parallel-spin,makespan,2,11,106.6149
+parallel-spin,makespan,2,12,108.1109
+parallel-spin,makespan,2,13,112.7629
+parallel-spin,makespan,2,14,107.7527
+parallel-spin,makespan,4,0,130.9344
+parallel-spin,makespan,4,1,129.0336
+parallel-spin,makespan,4,2,128.0829
+parallel-spin,makespan,4,3,130.0811
+parallel-spin,makespan,4,4,134.2848
+parallel-spin,makespan,4,5,129.9562
+parallel-spin,makespan,4,6,130.4352
+parallel-spin,makespan,4,7,132.0983
+parallel-spin,makespan,4,8,126.823
+parallel-spin,makespan,4,9,132.5399
+parallel-spin,makespan,4,10,128.1761
+parallel-spin,makespan,4,11,129.7448
+parallel-spin,makespan,4,12,132.203
+parallel-spin,makespan,4,13,130.6194
+parallel-spin,makespan,4,14,130.0043
+parallel-spin,makespan,8,0,152.0983
+parallel-spin,makespan,8,1,142.9545
+parallel-spin,makespan,8,2,141.7788
+parallel-spin,makespan,8,3,141.476
+parallel-spin,makespan,8,4,141.4746
+parallel-spin,makespan,8,5,141.9125
+parallel-spin,makespan,8,6,142.0314
+parallel-spin,makespan,8,7,147.7141
+parallel-spin,makespan,8,8,141.8915
+parallel-spin,makespan,8,9,141.2113
+parallel-spin,makespan,8,10,141.723
+parallel-spin,makespan,8,11,141.2919
+parallel-spin,makespan,8,12,141.6404
+parallel-spin,makespan,8,13,140.6792
+parallel-spin,makespan,8,14,150.5741
+parallel-spin,makespan,12,0,153.0395
+parallel-spin,makespan,12,1,158.7856
+parallel-spin,makespan,12,2,147.917
+parallel-spin,makespan,12,3,154.9071
+parallel-spin,makespan,12,4,159.1777
+parallel-spin,makespan,12,5,152.9194
+parallel-spin,makespan,12,6,151.5103
+parallel-spin,makespan,12,7,154.0634
+parallel-spin,makespan,12,8,155.6798
+parallel-spin,makespan,12,9,158.4587
+parallel-spin,makespan,12,10,153.0057
+parallel-spin,makespan,12,11,157.8477
+parallel-spin,makespan,12,12,155.827
+parallel-spin,makespan,12,13,157.2904
+parallel-spin,makespan,12,14,158.7712
+parallel-spin,makespan,16,0,190.6157
+parallel-spin,makespan,16,1,183.0308
+parallel-spin,makespan,16,2,192.7552
+parallel-spin,makespan,16,3,205.8321
+parallel-spin,makespan,16,4,181.5331
+parallel-spin,makespan,16,5,189.9023
+parallel-spin,makespan,16,6,200.4676
+parallel-spin,makespan,16,7,185.6772
+parallel-spin,makespan,16,8,196.3487
+parallel-spin,makespan,16,9,198.0323
+parallel-spin,makespan,16,10,193.7967
+parallel-spin,makespan,16,11,183.4155
+parallel-spin,makespan,16,12,185.778
+parallel-spin,makespan,16,13,184.9218
+parallel-spin,makespan,16,14,182.2217
+drift,overhead,4,0,0.014599227195334352
+drift,overhead,4,1,0.014361497576394155
+drift,overhead,4,2,0.016468273854587823
+drift,overhead,4,3,0.015614997582468426
+drift,overhead,4,4,0.016208866209092898
+drift,overhead,4,5,0.015848901667310678
+drift,overhead,4,6,0.01503369856788006
+drift,overhead,4,7,0.014337997866935792
+drift,overhead,4,8,0.01434109472787215
+drift,overhead,4,9,0.014908002447520996
+drift,overhead,4,10,0.014403214114890206
+drift,overhead,4,11,0.015317698932575619
+drift,overhead,4,12,0.015351764402875778
+drift,overhead,4,13,0.015674020108550124
+drift,overhead,4,14,0.014180968800632021
+drift,overhead,4,15,0.014142713459653233
+drift,overhead,4,16,0.01569314777903963
+drift,overhead,4,17,0.01486136736518473
+drift,overhead,4,18,0.014149635854687315
+drift,overhead,4,19,0.014193356244377453
+drift,overhead,4,20,0.014154190061946847
+drift,overhead,4,21,0.01468685014300486
+drift,overhead,4,22,0.018774160074161772
+drift,overhead,4,23,0.015469809455039174
+drift,overhead,4,24,0.015659628813610604
+drift,overhead,4,25,0.01414781417178368
+drift,overhead,4,26,0.01545960803077806
+drift,overhead,4,27,0.024254875258400865
+drift,overhead,4,28,0.01414799634007391
+drift,overhead,4,29,0.015461247545391466

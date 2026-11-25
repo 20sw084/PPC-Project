@@ -52,7 +52,7 @@ def test_bootstrap_is_deterministic_and_covers_the_mean():
     assert censored == 1.0 and np.isinf(hi)
 
 
-def synthetic_grid(reps=30):
+def synthetic_grid(reps=30, errors=(0.0, 0.25, 0.5)):
     """LPT overhead = baseline + delta(error): -0.05 at error 0, +0.05 at 0.5 -> crossover exactly at 0.25."""
     rng = np.random.default_rng(3)
     rows = []
@@ -62,7 +62,7 @@ def synthetic_grid(reps=30):
             rows.append(dict(variant="timed", policy=policy, skew=1.0, est_error=np.nan, workers=4, rep=rep,
                              overhead=base + (0.3 if policy == "static-rr" else 0.0), idle_share=0.1,
                              makespan_ms=1000.0, is_baseline=True))
-        for err in [0.0, 0.25, 0.5]:
+        for err in errors:
             rows.append(dict(variant="timed", policy="lpt", skew=1.0, est_error=err, workers=4, rep=rep,
                              overhead=base - 0.05 + 0.2 * err + rng.normal(0, 0.005), idle_share=0.1,
                              makespan_ms=1000.0, is_baseline=False))
@@ -85,6 +85,47 @@ def test_crossover_table_finds_the_planted_crossover():
     df = synthetic_grid()
     cross = S.crossovers(df, "dynamic-queue", np.random.default_rng(2), boots=500)
     close(cross["_point"].iloc[0], 0.25, 0.02)
+
+
+def test_error_window_splits_the_holm_families():
+    df = synthetic_grid(errors=(0.0, 0.25, 0.5, 0.75, 1.0))
+    rng = np.random.default_rng(1)
+    primary = S.paired_tests(df, "dynamic-queue", rng, error_max=0.5)
+    extension = S.paired_tests(df, "dynamic-queue", rng, error_min=0.5)
+    assert sorted(primary["est_error"]) == [0.0, 0.25, 0.5]
+    assert sorted(extension["est_error"]) == [0.75, 1.0]
+    # Holm multiplies the smallest p by the family size: 3 tests vs 2 tests
+    p3 = primary["wilcoxon_p"].min()
+    assert abs(primary["holm_p"].min() - min(1.0, 3 * p3)) < 1e-12
+    p2 = extension["wilcoxon_p"].min()
+    assert abs(extension["holm_p"].min() - min(1.0, 2 * p2)) < 1e-12
+    # the crossover (planted at 0.25) is still found when extension levels are present
+    cross = S.crossovers(df, "dynamic-queue", np.random.default_rng(2), boots=300)
+    close(cross["_point"].iloc[0], 0.25, 0.02)
+    assert cross["max_error_tested"].iloc[0] == 1.0
+
+
+def _write_grid_csv(df, path):
+    out = df.copy()
+    out["n"], out["median_ms"], out["lower_bound_ms"] = 200, 40.0, 1000.0
+    out["timestamp_utc"], out["task_seed"], out["noise_seed"] = "2026-11-25T00:00:00Z", 1, 1
+    out["est_error"] = out["est_error"].astype(object).where(out["est_error"].notna(), "NA")
+    out.drop(columns="is_baseline").to_csv(path, index=False)
+
+
+def test_whole_pipeline_runs_with_and_without_extension_levels():
+    """Regression: a grid WITHOUT error levels above 0.5 (e.g. the spin grid) crashed the figure code."""
+    import tempfile
+    for label, errors in [("no extension", (0.0, 0.25, 0.5)), ("with extension", (0.0, 0.25, 0.5, 0.75, 1.0))]:
+        with tempfile.TemporaryDirectory() as tmp:
+            csv, out = Path(tmp) / "grid.csv", Path(tmp) / "out"
+            _write_grid_csv(synthetic_grid(reps=12, errors=errors), csv)
+            S.run(str(csv), str(out), boots=200, seed=1)
+            expected = ["fig_rq1_boxplots.png", "fig_rq2_crossover.png", "fig_rq2_difference.png",
+                        "fig_rq2_lpt_vs_baselines.png", "rq2_primary_tests.csv", "rq2_crossovers.csv", "summary.txt"]
+            for name in expected:
+                assert (out / name).exists(), f"{label}: {name} missing"
+            assert (out / "rq2_extension_tests.csv").exists() == (len(errors) > 3), label
 
 
 def test_rq1_tables_shapes_and_ordering():
